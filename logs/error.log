@@ -1,0 +1,465 @@
+2017/07/10 15:51:18 [emerg] 1336#92659: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2017/07/10 15:51:18 [notice] 1336#92659: try again to bind() after 500ms
+2017/07/10 15:51:18 [emerg] 1336#92659: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2017/07/10 15:51:18 [notice] 1336#92659: try again to bind() after 500ms
+2017/07/10 15:51:18 [emerg] 1336#92659: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2017/07/10 15:51:18 [notice] 1336#92659: try again to bind() after 500ms
+2017/07/10 15:51:18 [emerg] 1336#92659: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2017/07/10 15:51:18 [notice] 1336#92659: try again to bind() after 500ms
+2017/07/10 15:51:18 [emerg] 1336#92659: bind() to 0.0.0.0:80 failed (48: Address already in use)
+2017/07/10 15:51:18 [notice] 1336#92659: try again to bind() after 500ms
+2017/07/10 15:51:18 [emerg] 1336#92659: still could not bind()
+2017/07/10 15:53:00 [notice] 1341#93511: using the "kqueue" event method
+2017/07/10 15:53:00 [warn] 1341#93511: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 15:53:00 [notice] 1341#93511: openresty/1.11.2.3
+2017/07/10 15:53:00 [notice] 1341#93511: built by clang 8.1.0 (clang-802.0.42)
+2017/07/10 15:53:00 [notice] 1341#93511: OS: Darwin 16.6.0
+2017/07/10 15:53:00 [notice] 1341#93511: hw.ncpu: 4
+2017/07/10 15:53:00 [notice] 1341#93511: net.inet.tcp.sendspace: 131072
+2017/07/10 15:53:00 [notice] 1341#93511: kern.ipc.somaxconn: 128
+2017/07/10 15:53:00 [notice] 1341#93511: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/10 15:53:00 [notice] 1342#93512: start worker processes
+2017/07/10 15:53:00 [notice] 1342#93512: start worker process 1343
+2017/07/10 15:54:17 [error] 1343#93513: *1 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice": cannot open /Users/moresmart/openResty/deviceLog/lua/bootdevice: No such file or directory, client: 127.0.0.1, server: , request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/10 15:54:17 [info] 1343#93513: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 15:54:37 [notice] 1342#93512: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 15:54:37 [notice] 1342#93512: reconfiguring
+2017/07/10 15:54:37 [notice] 1342#93512: using the "kqueue" event method
+2017/07/10 15:54:37 [warn] 1342#93512: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 15:54:37 [notice] 1342#93512: start worker processes
+2017/07/10 15:54:37 [notice] 1342#93512: start worker process 1348
+2017/07/10 15:54:37 [notice] 1343#93513: gracefully shutting down
+2017/07/10 15:54:37 [notice] 1342#93512: signal 23 (SIGIO) received
+2017/07/10 15:54:37 [notice] 1343#93513: exiting
+2017/07/10 15:54:37 [notice] 1342#93512: signal 23 (SIGIO) received
+2017/07/10 15:54:37 [notice] 1343#93513: exit
+2017/07/10 15:54:37 [notice] 1342#93512: signal 20 (SIGCHLD) received
+2017/07/10 15:54:37 [notice] 1342#93512: worker process 1343 exited with code 0
+2017/07/10 15:54:37 [notice] 1342#93512: signal 23 (SIGIO) received
+2017/07/10 15:54:37 [notice] 1342#93512: signal 23 (SIGIO) received
+2017/07/10 15:54:37 [notice] 1342#93512: signal 23 (SIGIO) received
+2017/07/10 15:54:39 [error] 1348#94246: *2 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice": cannot open /Users/moresmart/openResty/deviceLog/lua/bootdevice: No such file or directory, client: 127.0.0.1, server: , request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/10 15:54:39 [info] 1348#94246: *2 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 15:54:59 [error] 1348#94246: *3 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice": cannot open /Users/moresmart/openResty/deviceLog/lua/bootdevice: No such file or directory, client: 127.0.0.1, server: , request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/10 15:54:59 [info] 1348#94246: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 15:55:22 [error] 1348#94246: *4 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice": cannot open /Users/moresmart/openResty/deviceLog/lua/bootdevice: No such file or directory, client: 127.0.0.1, server: , request: "GET /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/10 15:55:23 [error] 1348#94246: *4 open() "/Users/moresmart/openResty/deviceLog/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/bootdevice"
+2017/07/10 15:55:37 [info] 1348#94246: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 15:56:26 [error] 1348#94246: *4 open() "/Users/moresmart/openResty/deviceLog/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2017/07/10 15:56:42 [info] 1348#94246: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 15:56:42 [info] 1348#94246: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 15:56:42 [info] 1348#94246: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 15:56:45 [notice] 1342#93512: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 15:56:45 [notice] 1342#93512: reconfiguring
+2017/07/10 15:56:45 [emerg] 1342#93512: unknown directive "ngx.say("hello" in /Users/moresmart/openResty/deviceLog/conf/nginx.conf:15
+2017/07/10 15:56:47 [error] 1348#94246: *4 open() "/Users/moresmart/openResty/deviceLog/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2017/07/10 15:57:26 [info] 1348#94246: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 15:57:26 [info] 1348#94246: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 15:58:50 [notice] 1342#93512: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 15:58:50 [notice] 1342#93512: reconfiguring
+2017/07/10 15:58:50 [emerg] 1342#93512: unknown directive "ngx.say("hello" in /Users/moresmart/openResty/deviceLog/conf/nginx.conf:15
+2017/07/10 15:58:55 [error] 1348#94246: *11 open() "/Users/moresmart/openResty/deviceLog/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2017/07/10 15:58:58 [error] 1348#94246: *11 open() "/Users/moresmart/openResty/deviceLog/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "localhost:8080"
+2017/07/10 15:59:12 [info] 1348#94246: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 15:59:12 [info] 1348#94246: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 15:59:47 [error] 1348#94246: *11 "/Users/moresmart/openResty/deviceLog/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8080"
+2017/07/10 16:00:03 [error] 1348#94246: *14 open() "/Users/moresmart/openResty/deviceLog/html/test" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /test HTTP/1.1", host: "127.0.0.1:8080"
+2017/07/10 16:00:03 [error] 1348#94246: *14 open() "/Users/moresmart/openResty/deviceLog/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/test"
+2017/07/10 16:00:27 [info] 1348#94246: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 16:00:29 [notice] 1342#93512: signal 15 (SIGTERM) received, exiting
+2017/07/10 16:00:29 [notice] 1348#94246: exiting
+2017/07/10 16:00:29 [notice] 1342#93512: signal 23 (SIGIO) received
+2017/07/10 16:00:29 [notice] 1348#94246: exit
+2017/07/10 16:00:29 [notice] 1342#93512: signal 20 (SIGCHLD) received
+2017/07/10 16:00:29 [notice] 1342#93512: worker process 1348 exited with code 0
+2017/07/10 16:00:29 [notice] 1342#93512: exit
+2017/07/10 16:02:24 [notice] 1385#98076: using the "kqueue" event method
+2017/07/10 16:02:24 [warn] 1385#98076: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 16:02:24 [notice] 1385#98076: openresty/1.11.2.3
+2017/07/10 16:02:24 [notice] 1385#98076: built by clang 8.1.0 (clang-802.0.42)
+2017/07/10 16:02:24 [notice] 1385#98076: OS: Darwin 16.6.0
+2017/07/10 16:02:24 [notice] 1385#98076: hw.ncpu: 4
+2017/07/10 16:02:24 [notice] 1385#98076: net.inet.tcp.sendspace: 131072
+2017/07/10 16:02:24 [notice] 1385#98076: kern.ipc.somaxconn: 128
+2017/07/10 16:02:24 [notice] 1385#98076: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/10 16:02:24 [notice] 1386#98077: start worker processes
+2017/07/10 16:02:24 [notice] 1386#98077: start worker process 1387
+2017/07/10 16:02:38 [error] 1387#98078: *5 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice": cannot open /Users/moresmart/openResty/deviceLog/lua/bootdevice: No such file or directory, client: 127.0.0.1, server: , request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/10 16:02:38 [info] 1387#98078: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 16:02:48 [info] 1387#98078: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 16:02:48 [info] 1387#98078: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 16:02:48 [info] 1387#98078: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 16:03:07 [info] 1387#98078: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 16:03:07 [info] 1387#98078: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2017/07/10 16:03:56 [notice] 1386#98077: signal 15 (SIGTERM) received, exiting
+2017/07/10 16:03:56 [notice] 1387#98078: exiting
+2017/07/10 16:03:56 [notice] 1386#98077: signal 23 (SIGIO) received
+2017/07/10 16:03:56 [notice] 1387#98078: exit
+2017/07/10 16:03:56 [notice] 1386#98077: signal 20 (SIGCHLD) received
+2017/07/10 16:03:56 [notice] 1386#98077: worker process 1387 exited with code 0
+2017/07/10 16:03:56 [notice] 1386#98077: exit
+2017/07/10 16:03:59 [notice] 1406#98826: using the "kqueue" event method
+2017/07/10 16:03:59 [warn] 1406#98826: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 16:03:59 [notice] 1406#98826: openresty/1.11.2.3
+2017/07/10 16:03:59 [notice] 1406#98826: built by clang 8.1.0 (clang-802.0.42)
+2017/07/10 16:03:59 [notice] 1406#98826: OS: Darwin 16.6.0
+2017/07/10 16:03:59 [notice] 1406#98826: hw.ncpu: 4
+2017/07/10 16:03:59 [notice] 1406#98826: net.inet.tcp.sendspace: 131072
+2017/07/10 16:03:59 [notice] 1406#98826: kern.ipc.somaxconn: 128
+2017/07/10 16:03:59 [notice] 1406#98826: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/10 16:03:59 [notice] 1407#98827: start worker processes
+2017/07/10 16:03:59 [notice] 1407#98827: start worker process 1408
+2017/07/10 16:04:04 [error] 1408#98828: *1 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate global 'boot_long_time' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 127.0.0.1, server: , request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/10 16:05:55 [notice] 1407#98827: signal 15 (SIGTERM) received, exiting
+2017/07/10 16:05:55 [notice] 1408#98828: exiting
+2017/07/10 16:05:55 [notice] 1407#98827: signal 23 (SIGIO) received
+2017/07/10 16:05:55 [notice] 1408#98828: exit
+2017/07/10 16:05:55 [notice] 1407#98827: signal 20 (SIGCHLD) received
+2017/07/10 16:05:55 [notice] 1407#98827: worker process 1408 exited with code 0
+2017/07/10 16:05:55 [notice] 1407#98827: exit
+2017/07/10 16:05:57 [notice] 1425#99754: using the "kqueue" event method
+2017/07/10 16:05:57 [warn] 1425#99754: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 16:05:57 [notice] 1425#99754: openresty/1.11.2.3
+2017/07/10 16:05:57 [notice] 1425#99754: built by clang 8.1.0 (clang-802.0.42)
+2017/07/10 16:05:57 [notice] 1425#99754: OS: Darwin 16.6.0
+2017/07/10 16:05:57 [notice] 1425#99754: hw.ncpu: 4
+2017/07/10 16:05:57 [notice] 1425#99754: net.inet.tcp.sendspace: 131072
+2017/07/10 16:05:57 [notice] 1425#99754: kern.ipc.somaxconn: 128
+2017/07/10 16:05:57 [notice] 1425#99754: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/10 16:05:57 [notice] 1426#99755: start worker processes
+2017/07/10 16:05:57 [notice] 1426#99755: start worker process 1427
+2017/07/10 16:06:02 [info] 1427#99757: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 16:14:03 [notice] 1426#99755: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 16:14:03 [notice] 1426#99755: reconfiguring
+2017/07/10 16:14:03 [notice] 1426#99755: using the "kqueue" event method
+2017/07/10 16:14:03 [warn] 1426#99755: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 16:14:03 [notice] 1426#99755: start worker processes
+2017/07/10 16:14:03 [notice] 1426#99755: start worker process 1456
+2017/07/10 16:14:03 [notice] 1427#99757: gracefully shutting down
+2017/07/10 16:14:03 [notice] 1427#99757: exiting
+2017/07/10 16:14:03 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:14:03 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:14:03 [notice] 1427#99757: exit
+2017/07/10 16:14:03 [notice] 1426#99755: signal 20 (SIGCHLD) received
+2017/07/10 16:14:03 [notice] 1426#99755: worker process 1427 exited with code 0
+2017/07/10 16:14:03 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:14:03 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:14:04 [error] 1456#103503: *3 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:35: unexpected symbol near '\', client: 127.0.0.1, server: , request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/10 16:15:17 [notice] 1426#99755: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 16:15:17 [notice] 1426#99755: reconfiguring
+2017/07/10 16:15:17 [notice] 1426#99755: using the "kqueue" event method
+2017/07/10 16:15:17 [warn] 1426#99755: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 16:15:17 [notice] 1426#99755: start worker processes
+2017/07/10 16:15:17 [notice] 1426#99755: start worker process 1461
+2017/07/10 16:15:17 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:15:17 [notice] 1456#103503: gracefully shutting down
+2017/07/10 16:15:17 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:15:17 [notice] 1456#103503: exiting
+2017/07/10 16:15:17 [notice] 1456#103503: exit
+2017/07/10 16:15:17 [notice] 1426#99755: signal 20 (SIGCHLD) received
+2017/07/10 16:15:17 [notice] 1426#99755: worker process 1456 exited with code 0
+2017/07/10 16:15:17 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:15:17 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:15:18 [info] 1461#104016: *4 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 16:15:54 [notice] 1426#99755: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 16:15:54 [notice] 1426#99755: reconfiguring
+2017/07/10 16:15:54 [notice] 1426#99755: using the "kqueue" event method
+2017/07/10 16:15:54 [warn] 1426#99755: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 16:15:54 [notice] 1426#99755: start worker processes
+2017/07/10 16:15:54 [notice] 1426#99755: start worker process 1465
+2017/07/10 16:15:54 [notice] 1461#104016: gracefully shutting down
+2017/07/10 16:15:54 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:15:54 [notice] 1461#104016: exiting
+2017/07/10 16:15:54 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:15:54 [notice] 1461#104016: exit
+2017/07/10 16:15:54 [notice] 1426#99755: signal 20 (SIGCHLD) received
+2017/07/10 16:15:54 [notice] 1426#99755: worker process 1461 exited with code 0
+2017/07/10 16:15:54 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:15:54 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:15:56 [info] 1465#104321: *6 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 16:16:22 [notice] 1426#99755: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 16:16:22 [notice] 1426#99755: reconfiguring
+2017/07/10 16:16:22 [notice] 1426#99755: using the "kqueue" event method
+2017/07/10 16:16:22 [warn] 1426#99755: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 16:16:22 [notice] 1426#99755: start worker processes
+2017/07/10 16:16:22 [notice] 1426#99755: start worker process 1469
+2017/07/10 16:16:22 [notice] 1465#104321: gracefully shutting down
+2017/07/10 16:16:22 [notice] 1465#104321: exiting
+2017/07/10 16:16:22 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:16:22 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:16:22 [notice] 1465#104321: exit
+2017/07/10 16:16:22 [notice] 1426#99755: signal 20 (SIGCHLD) received
+2017/07/10 16:16:22 [notice] 1426#99755: worker process 1465 exited with code 0
+2017/07/10 16:16:22 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:16:22 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 16:16:24 [info] 1469#104582: *8 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 16:17:22 [info] 1469#104582: *10 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 17:38:10 [error] 1469#104582: *12 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:38:10 [error] 1469#104582: *13 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:38:10 [error] 1469#104582: *16 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:38:11 [error] 1469#104582: *18 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:38:16 [error] 1469#104582: *20 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:38:22 [error] 1469#104582: *22 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:38:22 [error] 1469#104582: *23 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:38:22 [error] 1469#104582: *26 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:38:29 [info] 1469#104582: *28 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/10 17:38:52 [error] 1469#104582: *30 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:42:17 [notice] 1426#99755: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 17:42:17 [notice] 1426#99755: reconfiguring
+2017/07/10 17:42:17 [emerg] 1426#99755: directive "server_name" is not terminated by ";" in /Users/moresmart/openResty/deviceLog/conf/nginx.conf:11
+2017/07/10 17:42:20 [error] 1469#104582: *32 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:42:20 [error] 1469#104582: *33 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:42:20 [error] 1469#104582: *36 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:42:23 [error] 1469#104582: *38 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:42:23 [error] 1469#104582: *39 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:42:23 [error] 1469#104582: *42 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:42:37 [info] 1469#104582: *44 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/10 17:43:01 [notice] 1426#99755: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 17:43:01 [notice] 1426#99755: reconfiguring
+2017/07/10 17:43:01 [emerg] 1426#99755: directive "server_name" is not terminated by ";" in /Users/moresmart/openResty/deviceLog/conf/nginx.conf:11
+2017/07/10 17:43:05 [error] 1469#104582: *46 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:43:05 [error] 1469#104582: *47 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:43:05 [error] 1469#104582: *50 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:43:44 [error] 1469#104582: *52 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:43:44 [error] 1469#104582: *53 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:43:44 [error] 1469#104582: *56 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:45:03 [info] 1469#104582: *58 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/10 17:45:17 [error] 1469#104582: *60 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'on_off' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:45:17 [error] 1469#104582: *61 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'on_off' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:45:17 [error] 1469#104582: *64 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'on_off' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:45:17 [error] 1469#104582: *66 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'on_off' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:45:22 [error] 1469#104582: *68 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'on_off' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: , request: "GET /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:45:25 [error] 1469#104582: *70 open() "/Users/moresmart/openResty/deviceLog/html/favicon.ico" failed (2: No such file or directory), client: 192.168.1.79, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.79:8080", referrer: "http://192.168.1.79:8080/test"
+2017/07/10 17:45:48 [info] 1469#104582: *71 client closed connection while waiting for request, client: 192.168.1.79, server: 0.0.0.0:8080
+2017/07/10 17:53:42 [error] 1469#104582: *72 open() "/Users/moresmart/openResty/deviceLog/html/http:/192.168.1.79:8080/bootdevice" failed (2: No such file or directory), client: 192.168.1.16, server: , request: "POST /http://192.168.1.79:8080/bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:53:44 [info] 1469#104582: *72 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 17:58:09 [notice] 1426#99755: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 17:58:09 [notice] 1426#99755: reconfiguring
+2017/07/10 17:58:09 [emerg] 1426#99755: directive "server_name" is not terminated by ";" in /Users/moresmart/openResty/deviceLog/conf/nginx.conf:11
+2017/07/10 17:58:53 [notice] 1426#99755: signal 15 (SIGTERM) received, exiting
+2017/07/10 17:58:53 [notice] 1469#104582: exiting
+2017/07/10 17:58:53 [notice] 1426#99755: signal 23 (SIGIO) received
+2017/07/10 17:58:53 [notice] 1469#104582: exit
+2017/07/10 17:58:53 [notice] 1426#99755: signal 20 (SIGCHLD) received
+2017/07/10 17:58:53 [notice] 1426#99755: worker process 1469 exited with code 0
+2017/07/10 17:58:53 [notice] 1426#99755: exit
+2017/07/10 17:59:44 [notice] 1681#150617: using the "kqueue" event method
+2017/07/10 17:59:44 [warn] 1681#150617: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 17:59:44 [notice] 1681#150617: openresty/1.11.2.3
+2017/07/10 17:59:44 [notice] 1681#150617: built by clang 8.1.0 (clang-802.0.42)
+2017/07/10 17:59:44 [notice] 1681#150617: OS: Darwin 16.6.0
+2017/07/10 17:59:44 [notice] 1681#150617: hw.ncpu: 4
+2017/07/10 17:59:44 [notice] 1681#150617: net.inet.tcp.sendspace: 131072
+2017/07/10 17:59:44 [notice] 1681#150617: kern.ipc.somaxconn: 128
+2017/07/10 17:59:44 [notice] 1681#150617: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/10 17:59:44 [notice] 1682#150618: start worker processes
+2017/07/10 17:59:44 [notice] 1682#150618: start worker process 1683
+2017/07/10 17:59:54 [error] 1683#150619: *1 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:59:54 [error] 1683#150619: *2 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:59:54 [error] 1683#150619: *3 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:59:54 [error] 1683#150619: *4 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 17:59:54 [error] 1683#150619: *9 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:00:24 [error] 1683#150619: *11 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:00:24 [error] 1683#150619: *12 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:00:24 [error] 1683#150619: *13 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:00:24 [error] 1683#150619: *17 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:36: attempt to concatenate local 'mac_add' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "GET /bootdevice?add_mac=123456789012&on_off=0 HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:00:43 [error] 1683#150619: *19 open() "/Users/moresmart/openResty/deviceLog/html/http:/192.168.1.79:8080/bootdevice" failed (2: No such file or directory), client: 192.168.1.16, server: 192.168.1.97:8080, request: "POST /http://192.168.1.79:8080/bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:00:43 [info] 1683#150619: *19 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 18:02:08 [info] 1683#150619: *21 client closed connection while waiting for request, client: 192.168.1.79, server: 0.0.0.0:8080
+2017/07/10 18:02:08 [info] 1683#150619: *22 client closed connection while waiting for request, client: 192.168.1.79, server: 0.0.0.0:8080
+2017/07/10 18:04:34 [info] 1683#150619: *24 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 18:07:08 [notice] 1682#150618: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 18:07:08 [notice] 1682#150618: reconfiguring
+2017/07/10 18:07:08 [notice] 1682#150618: using the "kqueue" event method
+2017/07/10 18:07:08 [warn] 1682#150618: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 18:07:08 [notice] 1682#150618: start worker processes
+2017/07/10 18:07:08 [notice] 1682#150618: start worker process 1707
+2017/07/10 18:07:09 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:07:09 [notice] 1683#150619: gracefully shutting down
+2017/07/10 18:07:09 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:07:09 [notice] 1683#150619: exiting
+2017/07/10 18:07:09 [notice] 1683#150619: exit
+2017/07/10 18:07:09 [notice] 1682#150618: signal 20 (SIGCHLD) received
+2017/07/10 18:07:09 [notice] 1682#150618: worker process 1683 exited with code 0
+2017/07/10 18:07:09 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:07:09 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:08:21 [info] 1707#155060: *26 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 18:08:59 [notice] 1682#150618: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 18:08:59 [notice] 1682#150618: reconfiguring
+2017/07/10 18:08:59 [notice] 1682#150618: using the "kqueue" event method
+2017/07/10 18:08:59 [warn] 1682#150618: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 18:08:59 [notice] 1682#150618: start worker processes
+2017/07/10 18:08:59 [notice] 1682#150618: start worker process 1712
+2017/07/10 18:08:59 [notice] 1707#155060: gracefully shutting down
+2017/07/10 18:08:59 [notice] 1707#155060: exiting
+2017/07/10 18:08:59 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:08:59 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:08:59 [notice] 1707#155060: exit
+2017/07/10 18:08:59 [notice] 1682#150618: signal 20 (SIGCHLD) received
+2017/07/10 18:08:59 [notice] 1682#150618: worker process 1707 exited with code 0
+2017/07/10 18:08:59 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:08:59 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:10:48 [error] 1712#156043: *28 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:21: unexpected symbol near '#', client: 192.168.1.16, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:11:01 [notice] 1682#150618: signal 15 (SIGTERM) received, exiting
+2017/07/10 18:11:01 [notice] 1712#156043: exiting
+2017/07/10 18:11:01 [notice] 1682#150618: signal 23 (SIGIO) received
+2017/07/10 18:11:01 [notice] 1712#156043: exit
+2017/07/10 18:11:01 [notice] 1682#150618: signal 20 (SIGCHLD) received
+2017/07/10 18:11:01 [notice] 1682#150618: worker process 1712 exited with code 0
+2017/07/10 18:11:01 [notice] 1682#150618: exit
+2017/07/10 18:11:05 [notice] 1717#157108: using the "kqueue" event method
+2017/07/10 18:11:05 [warn] 1717#157108: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 18:11:05 [notice] 1717#157108: openresty/1.11.2.3
+2017/07/10 18:11:05 [notice] 1717#157108: built by clang 8.1.0 (clang-802.0.42)
+2017/07/10 18:11:05 [notice] 1717#157108: OS: Darwin 16.6.0
+2017/07/10 18:11:05 [notice] 1717#157108: hw.ncpu: 4
+2017/07/10 18:11:05 [notice] 1717#157108: net.inet.tcp.sendspace: 131072
+2017/07/10 18:11:05 [notice] 1717#157108: kern.ipc.somaxconn: 128
+2017/07/10 18:11:05 [notice] 1717#157108: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/10 18:11:05 [notice] 1718#157109: start worker processes
+2017/07/10 18:11:05 [notice] 1718#157109: start worker process 1719
+2017/07/10 18:11:22 [error] 1719#157110: *1 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:21: unexpected symbol near '#', client: 192.168.1.16, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:11:51 [notice] 1718#157109: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 18:11:51 [notice] 1718#157109: reconfiguring
+2017/07/10 18:11:51 [notice] 1718#157109: using the "kqueue" event method
+2017/07/10 18:11:51 [warn] 1718#157109: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 18:11:51 [notice] 1718#157109: start worker processes
+2017/07/10 18:11:51 [notice] 1718#157109: start worker process 1725
+2017/07/10 18:11:51 [notice] 1719#157110: gracefully shutting down
+2017/07/10 18:11:51 [notice] 1718#157109: signal 23 (SIGIO) received
+2017/07/10 18:11:51 [notice] 1719#157110: exiting
+2017/07/10 18:11:51 [notice] 1718#157109: signal 23 (SIGIO) received
+2017/07/10 18:11:51 [notice] 1719#157110: exit
+2017/07/10 18:11:51 [notice] 1718#157109: signal 20 (SIGCHLD) received
+2017/07/10 18:11:51 [notice] 1718#157109: worker process 1719 exited with code 0
+2017/07/10 18:11:51 [notice] 1718#157109: signal 23 (SIGIO) received
+2017/07/10 18:11:51 [notice] 1718#157109: signal 23 (SIGIO) received
+2017/07/10 18:11:59 [error] 1725#157609: *2 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:47: ')' expected near 'status', client: 192.168.1.16, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/10 18:13:00 [notice] 1718#157109: signal 1 (SIGHUP) received, reconfiguring
+2017/07/10 18:13:00 [notice] 1718#157109: reconfiguring
+2017/07/10 18:13:00 [notice] 1718#157109: using the "kqueue" event method
+2017/07/10 18:13:00 [warn] 1718#157109: 1024 worker_connections exceed open file resource limit: 256
+2017/07/10 18:13:00 [notice] 1718#157109: start worker processes
+2017/07/10 18:13:00 [notice] 1718#157109: start worker process 1733
+2017/07/10 18:13:00 [notice] 1725#157609: gracefully shutting down
+2017/07/10 18:13:00 [notice] 1718#157109: signal 23 (SIGIO) received
+2017/07/10 18:13:00 [notice] 1725#157609: exiting
+2017/07/10 18:13:00 [notice] 1718#157109: signal 23 (SIGIO) received
+2017/07/10 18:13:00 [notice] 1725#157609: exit
+2017/07/10 18:13:00 [notice] 1718#157109: signal 20 (SIGCHLD) received
+2017/07/10 18:13:00 [notice] 1718#157109: worker process 1725 exited with code 0
+2017/07/10 18:13:00 [notice] 1718#157109: signal 23 (SIGIO) received
+2017/07/10 18:13:00 [notice] 1718#157109: signal 23 (SIGIO) received
+2017/07/10 18:13:19 [info] 1733#158266: *3 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 18:46:51 [info] 1733#158266: *5 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 19:00:02 [info] 1733#158266: *7 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 19:05:18 [info] 1733#158266: *9 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 19:14:11 [info] 1733#158266: *11 kevent() reported that client 192.168.1.16 closed keepalive connection
