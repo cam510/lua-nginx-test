@@ -463,3 +463,249 @@ coroutine 0:
 2017/07/10 19:00:02 [info] 1733#158266: *7 kevent() reported that client 192.168.1.16 closed keepalive connection
 2017/07/10 19:05:18 [info] 1733#158266: *9 kevent() reported that client 192.168.1.16 closed keepalive connection
 2017/07/10 19:14:11 [info] 1733#158266: *11 kevent() reported that client 192.168.1.16 closed keepalive connection
+2017/07/10 20:07:28 [notice] 1733#158266: signal 15 (SIGTERM) received, exiting
+2017/07/10 20:07:28 [notice] 1718#157109: signal 15 (SIGTERM) received, exiting
+2017/07/10 20:07:28 [notice] 1718#157109: signal 14 (SIGALRM) received
+2017/07/10 20:07:28 [notice] 1718#157109: signal 14 (SIGALRM) received
+2017/07/10 20:07:28 [notice] 1718#157109: signal 14 (SIGALRM) received
+2017/07/10 20:07:29 [notice] 1718#157109: signal 14 (SIGALRM) received
+2017/07/10 20:07:30 [notice] 1718#157109: signal 14 (SIGALRM) received
+2017/07/10 20:07:31 [notice] 1718#157109: signal 14 (SIGALRM) received
+2017/07/10 20:07:31 [notice] 1718#157109: signal 20 (SIGCHLD) received
+2017/07/10 20:07:31 [alert] 1718#157109: worker process 1733 exited on signal 9
+2017/07/10 20:07:31 [notice] 1718#157109: exit
+2017/07/11 15:47:25 [notice] 1819#166396: using the "kqueue" event method
+2017/07/11 15:47:25 [warn] 1819#166396: 1024 worker_connections exceed open file resource limit: 256
+2017/07/11 15:47:25 [notice] 1819#166396: openresty/1.11.2.3
+2017/07/11 15:47:25 [notice] 1819#166396: built by clang 8.1.0 (clang-802.0.42)
+2017/07/11 15:47:25 [notice] 1819#166396: OS: Darwin 16.6.0
+2017/07/11 15:47:25 [notice] 1819#166396: hw.ncpu: 4
+2017/07/11 15:47:25 [notice] 1819#166396: net.inet.tcp.sendspace: 131072
+2017/07/11 15:47:25 [notice] 1819#166396: kern.ipc.somaxconn: 128
+2017/07/11 15:47:25 [notice] 1819#166396: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/11 15:47:25 [notice] 1820#166398: start worker processes
+2017/07/11 15:47:25 [notice] 1820#166398: start worker process 1821
+2017/07/11 15:51:38 [error] 1821#166399: *1 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.45, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/11 15:51:46 [info] 1821#166399: *1 kevent() reported that client 192.168.1.45 closed keepalive connection
+2017/07/11 15:56:01 [error] 1821#166399: *3 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/11 15:56:01 [info] 1821#166399: *3 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/11 15:56:28 [info] 1821#166399: *5 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/11 16:33:38 [notice] 1820#166398: signal 15 (SIGTERM) received, exiting
+2017/07/11 16:33:38 [notice] 1821#166399: exiting
+2017/07/11 16:33:38 [notice] 1820#166398: signal 23 (SIGIO) received
+2017/07/11 16:33:38 [notice] 1821#166399: exit
+2017/07/11 16:33:38 [notice] 1820#166398: signal 20 (SIGCHLD) received
+2017/07/11 16:33:38 [notice] 1820#166398: worker process 1821 exited with code 0
+2017/07/11 16:33:38 [notice] 1820#166398: exit
+2017/07/12 20:09:17 [notice] 2088#270136: using the "kqueue" event method
+2017/07/12 20:09:17 [warn] 2088#270136: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:09:17 [notice] 2088#270136: openresty/1.11.2.3
+2017/07/12 20:09:17 [notice] 2088#270136: built by clang 8.1.0 (clang-802.0.42)
+2017/07/12 20:09:17 [notice] 2088#270136: OS: Darwin 16.6.0
+2017/07/12 20:09:17 [notice] 2088#270136: hw.ncpu: 4
+2017/07/12 20:09:17 [notice] 2088#270136: net.inet.tcp.sendspace: 131072
+2017/07/12 20:09:17 [notice] 2088#270136: kern.ipc.somaxconn: 128
+2017/07/12 20:09:17 [notice] 2088#270136: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/12 20:09:17 [notice] 2089#270137: start worker processes
+2017/07/12 20:09:17 [notice] 2089#270137: start worker process 2090
+2017/07/12 20:11:28 [info] 2090#270138: *1 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:17:18 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:17:18 [notice] 2089#270137: reconfiguring
+2017/07/12 20:17:18 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:17:18 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:17:18 [notice] 2089#270137: start worker processes
+2017/07/12 20:17:18 [notice] 2089#270137: start worker process 2097
+2017/07/12 20:17:18 [notice] 2090#270138: gracefully shutting down
+2017/07/12 20:17:18 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:17:18 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:17:18 [notice] 2090#270138: exiting
+2017/07/12 20:17:18 [notice] 2090#270138: exit
+2017/07/12 20:17:18 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:17:18 [notice] 2089#270137: worker process 2090 exited with code 0
+2017/07/12 20:17:18 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:17:18 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:17:41 [error] 2097#273376: *3 open() "/Users/moresmart/openResty/deviceLog/html/musicstatus" failed (2: No such file or directory), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /musicstatus HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/12 20:17:41 [info] 2097#273376: *3 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:17:54 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:17:54 [notice] 2089#270137: reconfiguring
+2017/07/12 20:17:54 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:17:54 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:17:54 [notice] 2089#270137: start worker processes
+2017/07/12 20:17:54 [notice] 2089#270137: start worker process 2101
+2017/07/12 20:17:55 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:17:55 [notice] 2097#273376: gracefully shutting down
+2017/07/12 20:17:55 [notice] 2097#273376: exiting
+2017/07/12 20:17:55 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:17:55 [notice] 2097#273376: exit
+2017/07/12 20:17:55 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:17:55 [notice] 2089#270137: worker process 2097 exited with code 0
+2017/07/12 20:17:55 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:17:55 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:17:56 [info] 2101#273620: *4 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:18:47 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:18:47 [notice] 2089#270137: reconfiguring
+2017/07/12 20:18:47 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:18:47 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:18:47 [notice] 2089#270137: start worker processes
+2017/07/12 20:18:47 [notice] 2089#270137: start worker process 2105
+2017/07/12 20:18:47 [notice] 2101#273620: gracefully shutting down
+2017/07/12 20:18:47 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:18:47 [notice] 2101#273620: exiting
+2017/07/12 20:18:47 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:18:47 [notice] 2101#273620: exit
+2017/07/12 20:18:47 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:18:47 [notice] 2089#270137: worker process 2101 exited with code 0
+2017/07/12 20:18:47 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:18:47 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:18:48 [info] 2105#274020: *6 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:20:03 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:20:03 [notice] 2089#270137: reconfiguring
+2017/07/12 20:20:03 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:20:03 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:20:03 [notice] 2089#270137: start worker processes
+2017/07/12 20:20:03 [notice] 2089#270137: start worker process 2109
+2017/07/12 20:20:03 [notice] 2105#274020: gracefully shutting down
+2017/07/12 20:20:03 [notice] 2105#274020: exiting
+2017/07/12 20:20:03 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:20:03 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:20:03 [notice] 2105#274020: exit
+2017/07/12 20:20:03 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:20:03 [notice] 2089#270137: worker process 2105 exited with code 0
+2017/07/12 20:20:03 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:20:03 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:20:04 [error] 2109#274612: *8 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/musicstatus.lua:40: attempt to concatenate local 'operation' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/musicstatus.lua: in function </Users/moresmart/openResty/deviceLog/lua/musicstatus.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /musicstatus HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/12 20:20:20 [info] 2109#274612: *10 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:22:48 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:22:48 [notice] 2089#270137: reconfiguring
+2017/07/12 20:22:48 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:22:48 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:22:48 [notice] 2089#270137: start worker processes
+2017/07/12 20:22:48 [notice] 2089#270137: start worker process 2117
+2017/07/12 20:22:48 [notice] 2109#274612: gracefully shutting down
+2017/07/12 20:22:48 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:22:48 [notice] 2109#274612: exiting
+2017/07/12 20:22:48 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:22:48 [notice] 2109#274612: exit
+2017/07/12 20:22:48 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:22:48 [notice] 2089#270137: worker process 2109 exited with code 0
+2017/07/12 20:22:48 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:22:48 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:23:20 [info] 2117#275938: *12 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:25:50 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:25:50 [notice] 2089#270137: reconfiguring
+2017/07/12 20:25:50 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:25:50 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:25:50 [notice] 2089#270137: start worker processes
+2017/07/12 20:25:50 [notice] 2089#270137: start worker process 2125
+2017/07/12 20:25:50 [notice] 2117#275938: gracefully shutting down
+2017/07/12 20:25:50 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:25:50 [notice] 2117#275938: exiting
+2017/07/12 20:25:50 [notice] 2117#275938: exit
+2017/07/12 20:25:50 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:25:50 [notice] 2089#270137: worker process 2117 exited with code 0
+2017/07/12 20:25:50 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:25:50 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:26:26 [info] 2125#277433: *14 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:27:02 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:27:02 [notice] 2089#270137: reconfiguring
+2017/07/12 20:27:02 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:27:02 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:27:02 [notice] 2089#270137: start worker processes
+2017/07/12 20:27:02 [notice] 2089#270137: start worker process 2129
+2017/07/12 20:27:02 [notice] 2125#277433: gracefully shutting down
+2017/07/12 20:27:02 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:27:02 [notice] 2125#277433: exiting
+2017/07/12 20:27:02 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:27:02 [notice] 2125#277433: exit
+2017/07/12 20:27:02 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:27:02 [notice] 2089#270137: worker process 2125 exited with code 0
+2017/07/12 20:27:02 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:27:02 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:27:03 [info] 2129#277921: *16 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:29:19 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:29:19 [notice] 2089#270137: reconfiguring
+2017/07/12 20:29:19 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:29:19 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:29:19 [notice] 2089#270137: start worker processes
+2017/07/12 20:29:19 [notice] 2089#270137: start worker process 2135
+2017/07/12 20:29:19 [notice] 2129#277921: gracefully shutting down
+2017/07/12 20:29:19 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:29:19 [notice] 2129#277921: exiting
+2017/07/12 20:29:19 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:29:19 [notice] 2129#277921: exit
+2017/07/12 20:29:19 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:29:19 [notice] 2089#270137: worker process 2129 exited with code 0
+2017/07/12 20:29:19 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:29:19 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:29:53 [info] 2135#278919: *18 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:31:32 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:31:32 [notice] 2089#270137: reconfiguring
+2017/07/12 20:31:32 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:31:32 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:31:32 [notice] 2089#270137: start worker processes
+2017/07/12 20:31:32 [notice] 2089#270137: start worker process 2141
+2017/07/12 20:31:32 [notice] 2135#278919: gracefully shutting down
+2017/07/12 20:31:32 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:31:32 [notice] 2135#278919: exiting
+2017/07/12 20:31:32 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:31:32 [notice] 2135#278919: exit
+2017/07/12 20:31:32 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:31:32 [notice] 2089#270137: worker process 2135 exited with code 0
+2017/07/12 20:31:32 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:31:32 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:31:51 [info] 2141#279856: *20 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:34:02 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:34:02 [notice] 2089#270137: reconfiguring
+2017/07/12 20:34:02 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:34:02 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:34:02 [notice] 2089#270137: start worker processes
+2017/07/12 20:34:02 [notice] 2089#270137: start worker process 2148
+2017/07/12 20:34:02 [notice] 2141#279856: gracefully shutting down
+2017/07/12 20:34:02 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:34:02 [notice] 2141#279856: exiting
+2017/07/12 20:34:02 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:34:02 [notice] 2141#279856: exit
+2017/07/12 20:34:02 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:34:02 [notice] 2089#270137: worker process 2141 exited with code 0
+2017/07/12 20:34:02 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:34:02 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:34:29 [error] 2148#280935: *22 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/colorlum.lua:46: attempt to concatenate local 'color_lum' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/colorlum.lua: in function </Users/moresmart/openResty/deviceLog/lua/colorlum.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /colorlum HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/12 20:35:51 [info] 2148#280935: *24 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:38:04 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:38:04 [notice] 2089#270137: reconfiguring
+2017/07/12 20:38:04 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:38:04 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:38:04 [notice] 2089#270137: start worker processes
+2017/07/12 20:38:04 [notice] 2089#270137: start worker process 2160
+2017/07/12 20:38:04 [notice] 2148#280935: gracefully shutting down
+2017/07/12 20:38:04 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:38:04 [notice] 2148#280935: exiting
+2017/07/12 20:38:04 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:38:04 [notice] 2148#280935: exit
+2017/07/12 20:38:04 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:38:04 [notice] 2089#270137: worker process 2148 exited with code 0
+2017/07/12 20:38:04 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:38:04 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:38:17 [info] 2160#282756: *26 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:40:15 [notice] 2089#270137: signal 1 (SIGHUP) received, reconfiguring
+2017/07/12 20:40:15 [notice] 2089#270137: reconfiguring
+2017/07/12 20:40:15 [notice] 2089#270137: using the "kqueue" event method
+2017/07/12 20:40:15 [warn] 2089#270137: 1024 worker_connections exceed open file resource limit: 256
+2017/07/12 20:40:15 [notice] 2089#270137: start worker processes
+2017/07/12 20:40:15 [notice] 2089#270137: start worker process 2166
+2017/07/12 20:40:15 [notice] 2160#282756: gracefully shutting down
+2017/07/12 20:40:15 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:40:15 [notice] 2160#282756: exiting
+2017/07/12 20:40:15 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:40:15 [notice] 2160#282756: exit
+2017/07/12 20:40:15 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:40:15 [notice] 2089#270137: worker process 2160 exited with code 0
+2017/07/12 20:40:15 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:40:15 [notice] 2089#270137: signal 23 (SIGIO) received
+2017/07/12 20:40:45 [info] 2166#283772: *28 kevent() reported that client 192.168.1.79 closed keepalive connection

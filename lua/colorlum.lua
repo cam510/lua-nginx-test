@@ -26,15 +26,24 @@ local params = paramsModel:new()
 local args = params.args
 
 local mac_add = args["mac_add"]
-local on_off = args["on_off"]
-local boot_time = os.date("%Y-%m-%d %H:%M", os.time())
-local boot_long_time = os.time()
+local color_lum = args["color_lum"]
+local operation_time = os.date("%Y-%m-%d %H:%M", os.time())
+local operation_long_time = os.time()
+local operation_type = args["operation_type"]
+local red = args["red"]
+local green = args["green"]
+local blue = args["blue"]
 
-res, err, errcode, sqlstate = db:query("insert into Boot_Device (mac_add, on_off, boot_time, boot_long_time) "
-                                        .. "values (" .. mac_add .. ","
-                                        .. on_off .. ",\'"
-                                        ..boot_time .."\',"
-                                        .. boot_long_time .. ")")
+res, err, errcode, sqlstate = db:query("insert into Color_Send (mac_add, color_lum, operation_time, operation_long_time, operation_type, red, green, blue) "
+                                        .. "values (" .. mac_add .."," 
+                                        .. color_lum ..",\'"
+                                        .. operation_time .."\',"
+                                        .. operation_long_time ..","
+                                        .. operation_type ..","
+                                        .. red ..","
+                                        .. green ..","
+                                        .. blue
+                                        .. ")")
 if not res then
     --ngx.say("bad result: ", err, ": ", errcode, ": ", sqlstate, ".")
     ngx.say("{\"status\":-1,\"msg\":\"insert DB fail. "..err.."\"}") 

@@ -27,14 +27,19 @@ local args = params.args
 
 local mac_add = args["mac_add"]
 local on_off = args["on_off"]
-local boot_time = os.date("%Y-%m-%d %H:%M", os.time())
-local boot_long_time = os.time()
+local switch_time = os.date("%Y-%m-%d %H:%M", os.time())
+local switch_long_time = os.time()
+local switch_type = args["switch_type"]
+local switch_id = args["switch_id"]
 
-res, err, errcode, sqlstate = db:query("insert into Boot_Device (mac_add, on_off, boot_time, boot_long_time) "
+res, err, errcode, sqlstate = db:query("insert into Scene (mac_add, on_off, switch_time, switch_long_time, switch_type, switch_id) "
                                         .. "values (" .. mac_add .. ","
                                         .. on_off .. ",\'"
-                                        ..boot_time .."\',"
-                                        .. boot_long_time .. ")")
+                                        .. switch_time .."\',"
+                                        .. switch_long_time ..","
+                                        .. switch_type ..","
+                                        .. switch_id
+                                        .. ")")
 if not res then
     --ngx.say("bad result: ", err, ": ", errcode, ": ", sqlstate, ".")
     ngx.say("{\"status\":-1,\"msg\":\"insert DB fail. "..err.."\"}") 

@@ -26,15 +26,18 @@ local params = paramsModel:new()
 local args = params.args
 
 local mac_add = args["mac_add"]
-local on_off = args["on_off"]
-local boot_time = os.date("%Y-%m-%d %H:%M", os.time())
-local boot_long_time = os.time()
+local operation = args["operation"]
+local operation_time = os.date("%Y-%m-%d %H:%M", os.time())
+local operation_long_time = os.time()
+local operation_type = args["operation_type"]
 
-res, err, errcode, sqlstate = db:query("insert into Boot_Device (mac_add, on_off, boot_time, boot_long_time) "
-                                        .. "values (" .. mac_add .. ","
-                                        .. on_off .. ",\'"
-                                        ..boot_time .."\',"
-                                        .. boot_long_time .. ")")
+res, err, errcode, sqlstate = db:query("insert into Music_Play_Pause (mac_add, operation, operation_time, operation_long_time, operation_type) "
+                                        .. "values (" .. mac_add .."," 
+                                        .. operation ..",\'"
+                                        .. operation_time .."\',"
+                                        .. operation_long_time ..","
+                                        .. operation_type
+                                        .. ")")
 if not res then
     --ngx.say("bad result: ", err, ": ", errcode, ": ", sqlstate, ".")
     ngx.say("{\"status\":-1,\"msg\":\"insert DB fail. "..err.."\"}") 
