@@ -30,6 +30,44 @@ local vol_value = args["vol_value"]
 local operation_time = os.date("%Y-%m-%d %H:%M", os.time())
 local operation_long_time = os.time()
 local operation_type = args["operation_type"]
+local nonce = args["nonce"]
+local rkey = args["rkey"]
+
+if (mac_add == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack mac\"}")
+    return
+end
+
+if (vol_value == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack vol value\"}")
+    return
+end
+
+if (operation_type == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack operation type\"}")
+    return
+end
+
+if (nonce == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack nonce\"}")
+    return
+end
+
+if (rkey == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack rkey\"}")
+    return
+end
+
+local generationMD5 = paramsModel.createMD5(nonce)
+if not generationMD5 then
+    ngx.say("{\"status\":-3,\"msg\":\"encode error\"}") 
+    return
+end
+
+if not (generationMD5 == rkey) then
+    ngx.say("{\"status\":-2,\"msg\":\"rkey error\"}") 
+    return
+end
 
 res, err, errcode, sqlstate = db:query("insert into Music_Vol (mac_add, vol_value, operation_time, operation_long_time, operation_type) "
                                         .. "values (" .. mac_add .."," 

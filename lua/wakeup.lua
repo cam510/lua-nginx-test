@@ -29,6 +29,39 @@ local mac_add = args["mac_add"]
 local wake_up_time = os.date("%Y-%m-%d %H:%M", os.time())
 local wake_up_long_time = os.time()
 local wake_up_type = args["wake_up_type"]
+local nonce = args["nonce"]
+local rkey = args["rkey"]
+
+if (mac_add == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack mac\"}")
+    return
+end
+
+if (wake_up_type == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack wake up type\"}")
+    return
+end
+
+if (nonce == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack nonce\"}")
+    return
+end
+
+if (rkey == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack rkey\"}")
+    return
+end
+
+local generationMD5 = paramsModel.createMD5(nonce)
+if not generationMD5 then
+    ngx.say("{\"status\":-3,\"msg\":\"encode error\"}") 
+    return
+end
+
+if not (generationMD5 == rkey) then
+    ngx.say("{\"status\":-2,\"msg\":\"rkey error\"}") 
+    return
+end
 
 res, err, errcode, sqlstate = db:query("insert into Wake_Up (mac_add, wake_up_time, wake_up_long_time, wake_up_type) "
                                         .. "values (" .. mac_add ..",\'"

@@ -709,3 +709,1066 @@ coroutine 0:
 2017/07/12 20:40:15 [notice] 2089#270137: signal 23 (SIGIO) received
 2017/07/12 20:40:15 [notice] 2089#270137: signal 23 (SIGIO) received
 2017/07/12 20:40:45 [info] 2166#283772: *28 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/12 20:46:57 [notice] 2166#283772: signal 15 (SIGTERM) received, exiting
+2017/07/12 20:46:57 [notice] 2089#270137: signal 15 (SIGTERM) received, exiting
+2017/07/12 20:46:57 [notice] 2089#270137: signal 14 (SIGALRM) received
+2017/07/12 20:46:57 [notice] 2089#270137: signal 14 (SIGALRM) received
+2017/07/12 20:46:58 [notice] 2089#270137: signal 14 (SIGALRM) received
+2017/07/12 20:46:58 [notice] 2089#270137: signal 14 (SIGALRM) received
+2017/07/12 20:46:59 [notice] 2089#270137: signal 14 (SIGALRM) received
+2017/07/12 20:47:00 [notice] 2089#270137: signal 14 (SIGALRM) received
+2017/07/12 20:47:00 [notice] 2089#270137: signal 20 (SIGCHLD) received
+2017/07/12 20:47:00 [alert] 2089#270137: worker process 2166 exited on signal 9
+2017/07/12 20:47:00 [alert] 2089#270137: unlink() "/usr/local/var/run/openresty.pid" failed (2: No such file or directory)
+2017/07/12 20:47:00 [notice] 2089#270137: exit
+2017/07/13 16:33:00 [notice] 2925#205446: using the "kqueue" event method
+2017/07/13 16:33:00 [warn] 2925#205446: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:33:00 [notice] 2925#205446: openresty/1.11.2.3
+2017/07/13 16:33:00 [notice] 2925#205446: built by clang 8.1.0 (clang-802.0.42)
+2017/07/13 16:33:00 [notice] 2925#205446: OS: Darwin 16.6.0
+2017/07/13 16:33:00 [notice] 2925#205446: hw.ncpu: 4
+2017/07/13 16:33:00 [notice] 2925#205446: net.inet.tcp.sendspace: 131072
+2017/07/13 16:33:00 [notice] 2925#205446: kern.ipc.somaxconn: 128
+2017/07/13 16:33:00 [notice] 2925#205446: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/13 16:33:00 [notice] 2926#205447: start worker processes
+2017/07/13 16:33:00 [notice] 2926#205447: start worker process 2927
+2017/07/13 16:34:22 [error] 2927#205448: *1 kevent() reported that connect() failed (61: Connection refused), client: 127.0.0.1, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/13 16:34:22 [info] 2927#205448: *1 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/13 16:35:30 [notice] 2926#205447: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:35:30 [notice] 2926#205447: reconfiguring
+2017/07/13 16:35:30 [notice] 2926#205447: using the "kqueue" event method
+2017/07/13 16:35:30 [warn] 2926#205447: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:35:30 [notice] 2926#205447: start worker processes
+2017/07/13 16:35:30 [notice] 2926#205447: start worker process 2942
+2017/07/13 16:35:31 [notice] 2927#205448: gracefully shutting down
+2017/07/13 16:35:31 [notice] 2927#205448: exiting
+2017/07/13 16:35:31 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:35:31 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:35:31 [notice] 2927#205448: exit
+2017/07/13 16:35:31 [notice] 2926#205447: signal 20 (SIGCHLD) received
+2017/07/13 16:35:31 [notice] 2926#205447: worker process 2927 exited with code 0
+2017/07/13 16:35:31 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:35:31 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:35:47 [error] 2942#206556: *3 kevent() reported that connect() failed (61: Connection refused), client: 127.0.0.1, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/13 16:35:47 [info] 2942#206556: *3 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/13 16:36:58 [notice] 2926#205447: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:36:58 [notice] 2926#205447: reconfiguring
+2017/07/13 16:36:58 [notice] 2926#205447: using the "kqueue" event method
+2017/07/13 16:36:58 [warn] 2926#205447: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:36:58 [notice] 2926#205447: start worker processes
+2017/07/13 16:36:58 [notice] 2926#205447: start worker process 2947
+2017/07/13 16:36:58 [notice] 2942#206556: gracefully shutting down
+2017/07/13 16:36:58 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:36:58 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:36:58 [notice] 2942#206556: exiting
+2017/07/13 16:36:58 [notice] 2942#206556: exit
+2017/07/13 16:36:58 [notice] 2926#205447: signal 20 (SIGCHLD) received
+2017/07/13 16:36:58 [notice] 2926#205447: worker process 2942 exited with code 0
+2017/07/13 16:36:58 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:36:58 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:36:59 [error] 2947#207229: *5 kevent() reported that connect() failed (61: Connection refused), client: 127.0.0.1, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/13 16:36:59 [info] 2947#207229: *5 kevent() reported that client 127.0.0.1 closed keepalive connection
+2017/07/13 16:37:39 [error] 2947#207229: *7 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:37:39 [info] 2947#207229: *7 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:38:22 [notice] 2926#205447: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:38:22 [notice] 2926#205447: reconfiguring
+2017/07/13 16:38:22 [notice] 2926#205447: using the "kqueue" event method
+2017/07/13 16:38:22 [warn] 2926#205447: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:38:22 [notice] 2926#205447: start worker processes
+2017/07/13 16:38:22 [notice] 2926#205447: start worker process 2955
+2017/07/13 16:38:22 [notice] 2947#207229: gracefully shutting down
+2017/07/13 16:38:22 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:38:22 [notice] 2947#207229: exiting
+2017/07/13 16:38:22 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:38:22 [notice] 2947#207229: exit
+2017/07/13 16:38:22 [notice] 2926#205447: signal 20 (SIGCHLD) received
+2017/07/13 16:38:22 [notice] 2926#205447: worker process 2947 exited with code 0
+2017/07/13 16:38:22 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:38:22 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:38:23 [error] 2955#207851: *9 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:38:23 [info] 2955#207851: *9 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:38:46 [notice] 2926#205447: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:38:46 [notice] 2926#205447: reconfiguring
+2017/07/13 16:38:46 [notice] 2926#205447: using the "kqueue" event method
+2017/07/13 16:38:46 [warn] 2926#205447: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:38:46 [notice] 2926#205447: start worker processes
+2017/07/13 16:38:46 [notice] 2926#205447: start worker process 2959
+2017/07/13 16:38:47 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:38:47 [notice] 2955#207851: gracefully shutting down
+2017/07/13 16:38:47 [notice] 2955#207851: exiting
+2017/07/13 16:38:47 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:38:47 [notice] 2955#207851: exit
+2017/07/13 16:38:47 [notice] 2926#205447: signal 20 (SIGCHLD) received
+2017/07/13 16:38:47 [notice] 2926#205447: worker process 2955 exited with code 0
+2017/07/13 16:38:47 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:38:47 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:38:49 [error] 2959#208043: *11 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:38:49 [info] 2959#208043: *11 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:39:24 [notice] 2926#205447: signal 15 (SIGTERM) received, exiting
+2017/07/13 16:39:24 [notice] 2959#208043: exiting
+2017/07/13 16:39:24 [notice] 2926#205447: signal 23 (SIGIO) received
+2017/07/13 16:39:24 [notice] 2959#208043: exit
+2017/07/13 16:39:24 [notice] 2926#205447: signal 20 (SIGCHLD) received
+2017/07/13 16:39:24 [notice] 2926#205447: worker process 2959 exited with code 0
+2017/07/13 16:39:24 [notice] 2926#205447: exit
+2017/07/13 16:39:34 [notice] 2966#208403: using the "kqueue" event method
+2017/07/13 16:39:34 [warn] 2966#208403: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:39:34 [notice] 2966#208403: openresty/1.11.2.3
+2017/07/13 16:39:34 [notice] 2966#208403: built by clang 8.1.0 (clang-802.0.42)
+2017/07/13 16:39:34 [notice] 2966#208403: OS: Darwin 16.6.0
+2017/07/13 16:39:34 [notice] 2966#208403: hw.ncpu: 4
+2017/07/13 16:39:34 [notice] 2966#208403: net.inet.tcp.sendspace: 131072
+2017/07/13 16:39:34 [notice] 2966#208403: kern.ipc.somaxconn: 128
+2017/07/13 16:39:34 [notice] 2966#208403: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/13 16:39:34 [notice] 2967#208404: start worker processes
+2017/07/13 16:39:34 [notice] 2967#208404: start worker process 2968
+2017/07/13 16:39:42 [error] 2968#208408: *1 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:39:42 [info] 2968#208408: *1 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:40:49 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:40:49 [notice] 2967#208404: reconfiguring
+2017/07/13 16:40:49 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:40:49 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:40:49 [notice] 2967#208404: start worker processes
+2017/07/13 16:40:49 [notice] 2967#208404: start worker process 2974
+2017/07/13 16:40:49 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:40:49 [notice] 2968#208408: gracefully shutting down
+2017/07/13 16:40:49 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:40:49 [notice] 2968#208408: exiting
+2017/07/13 16:40:49 [notice] 2968#208408: exit
+2017/07/13 16:40:49 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:40:49 [notice] 2967#208404: worker process 2968 exited with code 0
+2017/07/13 16:40:49 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:40:49 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:40:50 [error] 2974#208984: *3 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:39: 'end' expected (to close 'function' at line 1) near '=', client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:44:10 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:44:10 [notice] 2967#208404: reconfiguring
+2017/07/13 16:44:10 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:44:10 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:44:10 [notice] 2967#208404: start worker processes
+2017/07/13 16:44:10 [notice] 2967#208404: start worker process 2980
+2017/07/13 16:44:10 [notice] 2974#208984: gracefully shutting down
+2017/07/13 16:44:10 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:44:10 [notice] 2974#208984: exiting
+2017/07/13 16:44:10 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:44:10 [notice] 2974#208984: exit
+2017/07/13 16:44:10 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:44:10 [notice] 2967#208404: worker process 2974 exited with code 0
+2017/07/13 16:44:10 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:44:10 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:44:12 [error] 2980#210437: *4 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:39: 'end' expected (to close 'function' at line 1) near '=', client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:44:58 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:44:58 [notice] 2967#208404: reconfiguring
+2017/07/13 16:44:58 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:44:58 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:44:58 [notice] 2967#208404: start worker processes
+2017/07/13 16:44:58 [notice] 2967#208404: start worker process 2986
+2017/07/13 16:44:58 [notice] 2980#210437: gracefully shutting down
+2017/07/13 16:44:58 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:44:58 [notice] 2980#210437: exiting
+2017/07/13 16:44:58 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:44:58 [notice] 2980#210437: exit
+2017/07/13 16:44:58 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:44:58 [notice] 2967#208404: worker process 2980 exited with code 0
+2017/07/13 16:44:58 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:44:58 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:44:59 [error] 2986#210801: *5 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:39: 'end' expected (to close 'function' at line 1) near '=', client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:45:17 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:45:17 [notice] 2967#208404: reconfiguring
+2017/07/13 16:45:17 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:45:17 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:45:17 [notice] 2967#208404: start worker processes
+2017/07/13 16:45:17 [notice] 2967#208404: start worker process 2991
+2017/07/13 16:45:17 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:45:17 [notice] 2986#210801: gracefully shutting down
+2017/07/13 16:45:17 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:45:17 [notice] 2986#210801: exiting
+2017/07/13 16:45:17 [notice] 2986#210801: exit
+2017/07/13 16:45:17 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:45:17 [notice] 2967#208404: worker process 2986 exited with code 0
+2017/07/13 16:45:17 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:45:17 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:45:19 [error] 2991#210984: *6 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:39: 'end' expected (to close 'function' at line 1) near '=', client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:45:51 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:45:51 [notice] 2967#208404: reconfiguring
+2017/07/13 16:45:51 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:45:51 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:45:51 [notice] 2967#208404: start worker processes
+2017/07/13 16:45:51 [notice] 2967#208404: start worker process 2996
+2017/07/13 16:45:51 [notice] 2991#210984: gracefully shutting down
+2017/07/13 16:45:51 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:45:51 [notice] 2991#210984: exiting
+2017/07/13 16:45:51 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:45:51 [notice] 2991#210984: exit
+2017/07/13 16:45:51 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:45:51 [notice] 2967#208404: worker process 2991 exited with code 0
+2017/07/13 16:45:51 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:45:51 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:45:52 [error] 2996#211232: *7 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:45:52 [info] 2996#211232: *7 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:46:01 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:46:01 [notice] 2967#208404: reconfiguring
+2017/07/13 16:46:01 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:46:01 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:46:01 [notice] 2967#208404: start worker processes
+2017/07/13 16:46:01 [notice] 2967#208404: start worker process 3000
+2017/07/13 16:46:01 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:46:01 [notice] 2996#211232: gracefully shutting down
+2017/07/13 16:46:01 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:46:01 [notice] 2996#211232: exiting
+2017/07/13 16:46:01 [notice] 2996#211232: exit
+2017/07/13 16:46:01 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:46:01 [notice] 2967#208404: worker process 2996 exited with code 0
+2017/07/13 16:46:01 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:46:01 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:46:03 [error] 3000#211327: *9 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:46:03 [info] 3000#211327: *9 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:46:53 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:46:53 [notice] 2967#208404: reconfiguring
+2017/07/13 16:46:53 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:46:53 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:46:53 [notice] 2967#208404: start worker processes
+2017/07/13 16:46:53 [notice] 2967#208404: start worker process 3005
+2017/07/13 16:46:53 [notice] 3000#211327: gracefully shutting down
+2017/07/13 16:46:53 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:46:53 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:46:53 [notice] 3000#211327: exiting
+2017/07/13 16:46:53 [notice] 3000#211327: exit
+2017/07/13 16:46:53 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:46:53 [notice] 2967#208404: worker process 3000 exited with code 0
+2017/07/13 16:46:53 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:46:53 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:46:54 [error] 3005#211736: *11 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:46:54 [info] 3005#211736: *11 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:47:22 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:47:22 [notice] 2967#208404: reconfiguring
+2017/07/13 16:47:22 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:47:22 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:47:22 [notice] 2967#208404: start worker processes
+2017/07/13 16:47:22 [notice] 2967#208404: start worker process 3009
+2017/07/13 16:47:22 [notice] 3005#211736: gracefully shutting down
+2017/07/13 16:47:22 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:47:22 [notice] 3005#211736: exiting
+2017/07/13 16:47:22 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:47:22 [notice] 3005#211736: exit
+2017/07/13 16:47:22 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:47:22 [notice] 2967#208404: worker process 3005 exited with code 0
+2017/07/13 16:47:22 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:47:22 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:47:22 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:47:23 [error] 3009#211970: *13 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:47:23 [info] 3009#211970: *13 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:48:03 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:48:03 [notice] 2967#208404: reconfiguring
+2017/07/13 16:48:03 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:48:03 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:48:03 [notice] 2967#208404: start worker processes
+2017/07/13 16:48:03 [notice] 2967#208404: start worker process 3013
+2017/07/13 16:48:03 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:48:03 [notice] 3009#211970: gracefully shutting down
+2017/07/13 16:48:03 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:48:03 [notice] 3009#211970: exiting
+2017/07/13 16:48:03 [notice] 3009#211970: exit
+2017/07/13 16:48:03 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:48:03 [notice] 2967#208404: worker process 3009 exited with code 0
+2017/07/13 16:48:03 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:48:03 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:48:03 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:48:04 [error] 3013#212264: *15 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:48:04 [info] 3013#212264: *15 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:49:06 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:49:06 [notice] 2967#208404: reconfiguring
+2017/07/13 16:49:06 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:49:06 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:49:06 [notice] 2967#208404: start worker processes
+2017/07/13 16:49:06 [notice] 2967#208404: start worker process 3020
+2017/07/13 16:49:06 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:49:06 [notice] 3013#212264: gracefully shutting down
+2017/07/13 16:49:06 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:49:06 [notice] 3013#212264: exiting
+2017/07/13 16:49:06 [notice] 3013#212264: exit
+2017/07/13 16:49:06 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:49:06 [notice] 2967#208404: worker process 3013 exited with code 0
+2017/07/13 16:49:06 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:49:06 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:49:07 [error] 3020#212871: *17 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:49:07 [info] 3020#212871: *17 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:50:08 [notice] 2967#208404: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:50:08 [notice] 2967#208404: reconfiguring
+2017/07/13 16:50:08 [notice] 2967#208404: using the "kqueue" event method
+2017/07/13 16:50:08 [warn] 2967#208404: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:50:08 [notice] 2967#208404: start worker processes
+2017/07/13 16:50:08 [notice] 2967#208404: start worker process 3027
+2017/07/13 16:50:08 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:50:08 [notice] 3020#212871: gracefully shutting down
+2017/07/13 16:50:08 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:50:08 [notice] 3020#212871: exiting
+2017/07/13 16:50:08 [notice] 3020#212871: exit
+2017/07/13 16:50:08 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:50:08 [notice] 2967#208404: worker process 3020 exited with code 0
+2017/07/13 16:50:08 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:50:08 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:50:10 [error] 3027#213331: *19 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:50:10 [info] 3027#213331: *19 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:50:30 [notice] 2967#208404: signal 15 (SIGTERM) received, exiting
+2017/07/13 16:50:30 [notice] 3027#213331: exiting
+2017/07/13 16:50:30 [notice] 2967#208404: signal 23 (SIGIO) received
+2017/07/13 16:50:30 [notice] 3027#213331: exit
+2017/07/13 16:50:30 [notice] 2967#208404: signal 20 (SIGCHLD) received
+2017/07/13 16:50:30 [notice] 2967#208404: worker process 3027 exited with code 0
+2017/07/13 16:50:30 [notice] 2967#208404: exit
+2017/07/13 16:50:56 [notice] 3033#213685: using the "kqueue" event method
+2017/07/13 16:50:56 [warn] 3033#213685: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:50:56 [notice] 3033#213685: openresty/1.11.2.3
+2017/07/13 16:50:56 [notice] 3033#213685: built by clang 8.1.0 (clang-802.0.42)
+2017/07/13 16:50:56 [notice] 3033#213685: OS: Darwin 16.6.0
+2017/07/13 16:50:56 [notice] 3033#213685: hw.ncpu: 4
+2017/07/13 16:50:56 [notice] 3033#213685: net.inet.tcp.sendspace: 131072
+2017/07/13 16:50:56 [notice] 3033#213685: kern.ipc.somaxconn: 128
+2017/07/13 16:50:56 [notice] 3033#213685: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/13 16:50:56 [notice] 3034#213686: start worker processes
+2017/07/13 16:50:56 [notice] 3034#213686: start worker process 3035
+2017/07/13 16:50:59 [error] 3035#213687: *1 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:50:59 [info] 3035#213687: *1 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:51:20 [notice] 3034#213686: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:51:20 [notice] 3034#213686: reconfiguring
+2017/07/13 16:51:20 [notice] 3034#213686: using the "kqueue" event method
+2017/07/13 16:51:20 [warn] 3034#213686: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:51:20 [notice] 3034#213686: start worker processes
+2017/07/13 16:51:20 [notice] 3034#213686: start worker process 3039
+2017/07/13 16:51:20 [notice] 3035#213687: gracefully shutting down
+2017/07/13 16:51:20 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:51:20 [notice] 3035#213687: exiting
+2017/07/13 16:51:20 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:51:20 [notice] 3035#213687: exit
+2017/07/13 16:51:20 [notice] 3034#213686: signal 20 (SIGCHLD) received
+2017/07/13 16:51:20 [notice] 3034#213686: worker process 3035 exited with code 0
+2017/07/13 16:51:20 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:51:20 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:51:23 [error] 3039#213901: *3 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:51:23 [info] 3039#213901: *3 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:53:35 [notice] 3034#213686: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 16:53:35 [notice] 3034#213686: reconfiguring
+2017/07/13 16:53:35 [notice] 3034#213686: using the "kqueue" event method
+2017/07/13 16:53:35 [warn] 3034#213686: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:53:35 [notice] 3034#213686: start worker processes
+2017/07/13 16:53:35 [notice] 3034#213686: start worker process 3074
+2017/07/13 16:53:35 [notice] 3039#213901: gracefully shutting down
+2017/07/13 16:53:35 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:53:35 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:53:35 [notice] 3039#213901: exiting
+2017/07/13 16:53:35 [notice] 3039#213901: exit
+2017/07/13 16:53:35 [notice] 3034#213686: signal 20 (SIGCHLD) received
+2017/07/13 16:53:35 [notice] 3034#213686: worker process 3039 exited with code 0
+2017/07/13 16:53:35 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:53:35 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:53:36 [error] 3074#215348: *5 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:53:36 [info] 3074#215348: *5 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:55:30 [error] 3074#215348: *7 kevent() reported that connect() failed (61: Connection refused), client: 127.0.0.1, server: 192.168.1.97:8080, request: "GET /bootdevice HTTP/1.1", host: "localhost:8080"
+2017/07/13 16:55:31 [error] 3074#215348: *7 open() "/Users/moresmart/openResty/deviceLog/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: 192.168.1.97:8080, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/bootdevice"
+2017/07/13 16:55:44 [notice] 3034#213686: signal 15 (SIGTERM) received, exiting
+2017/07/13 16:55:44 [notice] 3074#215348: exiting
+2017/07/13 16:55:44 [notice] 3034#213686: signal 23 (SIGIO) received
+2017/07/13 16:55:44 [notice] 3074#215348: exit
+2017/07/13 16:55:44 [notice] 3034#213686: signal 20 (SIGCHLD) received
+2017/07/13 16:55:44 [notice] 3034#213686: worker process 3074 exited with code 0
+2017/07/13 16:55:44 [notice] 3034#213686: exit
+2017/07/13 16:57:11 [notice] 3148#217478: using the "kqueue" event method
+2017/07/13 16:57:11 [warn] 3148#217478: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 16:57:11 [notice] 3148#217478: openresty/1.11.2.3
+2017/07/13 16:57:11 [notice] 3148#217478: built by clang 8.1.0 (clang-802.0.42)
+2017/07/13 16:57:11 [notice] 3148#217478: OS: Darwin 16.6.0
+2017/07/13 16:57:11 [notice] 3148#217478: hw.ncpu: 4
+2017/07/13 16:57:11 [notice] 3148#217478: net.inet.tcp.sendspace: 131072
+2017/07/13 16:57:11 [notice] 3148#217478: kern.ipc.somaxconn: 128
+2017/07/13 16:57:11 [notice] 3148#217478: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/13 16:57:11 [notice] 3149#217479: start worker processes
+2017/07/13 16:57:11 [notice] 3149#217479: start worker process 3150
+2017/07/13 16:57:18 [error] 3150#217480: *1 kevent() reported that connect() failed (61: Connection refused), client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 16:57:18 [info] 3150#217480: *1 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/13 16:58:30 [error] 3150#217480: *3 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:35: attempt to call field 'createMD5' (a nil value)
+stack traceback:
+coroutine 0:
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:02:31 [notice] 3149#217479: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 17:02:31 [notice] 3149#217479: reconfiguring
+2017/07/13 17:02:31 [notice] 3149#217479: using the "kqueue" event method
+2017/07/13 17:02:31 [warn] 3149#217479: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 17:02:31 [notice] 3149#217479: start worker processes
+2017/07/13 17:02:31 [notice] 3149#217479: start worker process 3285
+2017/07/13 17:02:32 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:02:32 [notice] 3150#217480: gracefully shutting down
+2017/07/13 17:02:32 [notice] 3150#217480: exiting
+2017/07/13 17:02:32 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:02:32 [notice] 3150#217480: exit
+2017/07/13 17:02:32 [notice] 3149#217479: signal 20 (SIGCHLD) received
+2017/07/13 17:02:32 [notice] 3149#217479: worker process 3150 exited with code 0
+2017/07/13 17:02:32 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:02:32 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:02:33 [error] 3285#220000: *5 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: module 'md5' not found:
+	no field package.preload['md5']
+	no file '/Users/moresmart/openResty/deviceLog//lua/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib/md5/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/init.lua'
+	no file './md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/luajit-2.1.0-beta2/md5.lua'
+	no file '/usr/local/share/lua/5.1/md5.lua'
+	no file '/usr/local/share/lua/5.1/md5/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/md5/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib/md5.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5.so'
+	no file './md5.so'
+	no file '/usr/local/lib/lua/5.1/md5.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/md5.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:35: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:04:05 [error] 3285#220000: *7 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/lib/lua/5.1/md5/core.so':
+	dlopen(/usr/local/lib/lua/5.1/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/lib/lua/5.1/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/lib/lua/5.1/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:35: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:05:09 [notice] 3149#217479: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 17:05:09 [notice] 3149#217479: reconfiguring
+2017/07/13 17:05:09 [notice] 3149#217479: using the "kqueue" event method
+2017/07/13 17:05:09 [warn] 3149#217479: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 17:05:09 [notice] 3149#217479: start worker processes
+2017/07/13 17:05:09 [notice] 3149#217479: start worker process 3323
+2017/07/13 17:05:09 [notice] 3285#220000: gracefully shutting down
+2017/07/13 17:05:09 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:05:09 [notice] 3285#220000: exiting
+2017/07/13 17:05:09 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:05:09 [notice] 3285#220000: exit
+2017/07/13 17:05:09 [notice] 3149#217479: signal 20 (SIGCHLD) received
+2017/07/13 17:05:09 [notice] 3149#217479: worker process 3285 exited with code 0
+2017/07/13 17:05:09 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:05:09 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:05:10 [error] 3323#221149: *9 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/lib/lua/5.1/md5/core.so':
+	dlopen(/usr/local/lib/lua/5.1/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/lib/lua/5.1/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/lib/lua/5.1/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:35: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:12:36 [notice] 3149#217479: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 17:12:36 [notice] 3149#217479: reconfiguring
+2017/07/13 17:12:36 [notice] 3149#217479: using the "kqueue" event method
+2017/07/13 17:12:36 [warn] 3149#217479: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 17:12:36 [notice] 3149#217479: start worker processes
+2017/07/13 17:12:36 [notice] 3149#217479: start worker process 3405
+2017/07/13 17:12:36 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:12:36 [notice] 3323#221149: gracefully shutting down
+2017/07/13 17:12:36 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:12:36 [notice] 3323#221149: exiting
+2017/07/13 17:12:36 [notice] 3323#221149: exit
+2017/07/13 17:12:36 [notice] 3149#217479: signal 20 (SIGCHLD) received
+2017/07/13 17:12:36 [notice] 3149#217479: worker process 3323 exited with code 0
+2017/07/13 17:12:36 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:12:36 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:12:38 [error] 3405#225053: *11 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: module 'usr/local/share/lua/5.3/md5' not found:
+	no field package.preload['usr/local/share/lua/5.3/md5']
+	no file '/Users/moresmart/openResty/deviceLog//lua/usr/local/share/lua/5/3/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib/usr/local/share/lua/5/3/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib/usr/local/share/lua/5/3/md5/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib/usr/local/share/lua/5/3/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib/usr/local/share/lua/5/3/md5/init.lua'
+	no file './usr/local/share/lua/5/3/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/luajit-2.1.0-beta2/usr/local/share/lua/5/3/md5.lua'
+	no file '/usr/local/share/lua/5.1/usr/local/share/lua/5/3/md5.lua'
+	no file '/usr/local/share/lua/5.1/usr/local/share/lua/5/3/md5/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/usr/local/share/lua/5/3/md5.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/usr/local/share/lua/5/3/md5/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib/usr/local/share/lua/5/3/md5.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib/usr/local/share/lua/5/3/md5.so'
+	no file './usr/local/share/lua/5/3/md5.so'
+	no file '/usr/local/lib/lua/5.1/usr/local/share/lua/5/3/md5.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/usr/local/share/lua/5/3/md5.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib/usr/local/share/lua/5.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib/usr/local/share/lua/5.so'
+	no file './usr/local/share/lua/5.so'
+	no file '/usr/local/lib/lua/5.1/usr/local/share/lua/5.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/usr/local/share/lua/5.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:35: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:22:44 [notice] 3149#217479: signal 15 (SIGTERM) received, exiting
+2017/07/13 17:22:44 [notice] 3405#225053: exiting
+2017/07/13 17:22:44 [notice] 3149#217479: signal 23 (SIGIO) received
+2017/07/13 17:22:44 [notice] 3405#225053: exit
+2017/07/13 17:22:44 [notice] 3149#217479: signal 20 (SIGCHLD) received
+2017/07/13 17:22:44 [notice] 3149#217479: worker process 3405 exited with code 0
+2017/07/13 17:22:44 [notice] 3149#217479: exit
+2017/07/13 17:32:03 [notice] 3582#233842: using the "kqueue" event method
+2017/07/13 17:32:03 [warn] 3582#233842: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 17:32:03 [notice] 3582#233842: openresty/1.11.2.3
+2017/07/13 17:32:03 [notice] 3582#233842: built by clang 8.1.0 (clang-802.0.42)
+2017/07/13 17:32:03 [notice] 3582#233842: OS: Darwin 16.6.0
+2017/07/13 17:32:03 [notice] 3582#233842: hw.ncpu: 4
+2017/07/13 17:32:03 [notice] 3582#233842: net.inet.tcp.sendspace: 131072
+2017/07/13 17:32:03 [notice] 3582#233842: kern.ipc.somaxconn: 128
+2017/07/13 17:32:03 [notice] 3582#233842: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/13 17:32:03 [notice] 3583#233844: start worker processes
+2017/07/13 17:32:03 [notice] 3583#233844: start worker process 3584
+2017/07/13 17:32:09 [error] 3584#233845: *1 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/lib/lua/5.1/md5/core.so':
+	dlopen(/usr/local/lib/lua/5.1/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/lib/lua/5.1/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/lib/lua/5.1/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:35: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:38:30 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 17:38:30 [notice] 3583#233844: reconfiguring
+2017/07/13 17:38:30 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 17:38:30 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 17:38:30 [notice] 3583#233844: start worker processes
+2017/07/13 17:38:30 [notice] 3583#233844: start worker process 3613
+2017/07/13 17:38:30 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:38:30 [notice] 3584#233845: gracefully shutting down
+2017/07/13 17:38:30 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:38:30 [notice] 3584#233845: exiting
+2017/07/13 17:38:30 [notice] 3584#233845: exit
+2017/07/13 17:38:30 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 17:38:30 [notice] 3583#233844: worker process 3584 exited with code 0
+2017/07/13 17:38:30 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:38:30 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:38:32 [error] 3613#237074: *3 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/lib/lua/5.1/md5/core.so':
+	dlopen(/usr/local/lib/lua/5.1/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/lib/lua/5.1/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/lib/lua/5.1/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:40:03 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 17:40:03 [notice] 3583#233844: reconfiguring
+2017/07/13 17:40:03 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 17:40:03 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 17:40:03 [notice] 3583#233844: start worker processes
+2017/07/13 17:40:03 [notice] 3583#233844: start worker process 3619
+2017/07/13 17:40:03 [notice] 3613#237074: gracefully shutting down
+2017/07/13 17:40:03 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:40:03 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:40:03 [notice] 3613#237074: exiting
+2017/07/13 17:40:03 [notice] 3613#237074: exit
+2017/07/13 17:40:03 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 17:40:03 [notice] 3583#233844: worker process 3613 exited with code 0
+2017/07/13 17:40:03 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:40:03 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:40:05 [error] 3619#237835: *5 [lua] bootdevice.lua:35: /Users/moresmart/openResty/deviceLog//lua/?.lua;/usr/local/Cellar/openresty/1.11.2.3/site/lualib/?.lua;/usr/local/Cellar/openresty/1.11.2.3/site/lualib/?/init.lua;/usr/local/Cellar/openresty/1.11.2.3/lualib/?.lua;/usr/local/Cellar/openresty/1.11.2.3/lualib/?/init.lua;./?.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/luajit-2.1.0-beta2/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/?.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/?/init.lua;, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:40:05 [error] 3619#237835: *5 [lua] bootdevice.lua:36: /usr/local/Cellar/openresty/1.11.2.3/site/lualib/?.so;/usr/local/Cellar/openresty/1.11.2.3/lualib/?.so;./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:40:05 [error] 3619#237835: *5 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/lib/lua/5.1/md5/core.so':
+	dlopen(/usr/local/lib/lua/5.1/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/lib/lua/5.1/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/lib/lua/5.1/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:43:22 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 17:43:22 [notice] 3583#233844: reconfiguring
+2017/07/13 17:43:22 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 17:43:22 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 17:43:22 [notice] 3583#233844: start worker processes
+2017/07/13 17:43:22 [notice] 3583#233844: start worker process 3638
+2017/07/13 17:43:22 [notice] 3619#237835: gracefully shutting down
+2017/07/13 17:43:22 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:43:22 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:43:22 [notice] 3619#237835: exiting
+2017/07/13 17:43:22 [notice] 3619#237835: exit
+2017/07/13 17:43:22 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 17:43:22 [notice] 3583#233844: worker process 3619 exited with code 0
+2017/07/13 17:43:22 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:43:22 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:43:25 [error] 3638#239270: *7 [lua] bootdevice.lua:35: /Users/moresmart/openResty/deviceLog//lua/?.lua;/usr/local/Cellar/openresty/1.11.2.3/site/lualib/?.lua;/usr/local/Cellar/openresty/1.11.2.3/site/lualib/?/init.lua;/usr/local/Cellar/openresty/1.11.2.3/lualib/?.lua;/usr/local/Cellar/openresty/1.11.2.3/lualib/?/init.lua;./?.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/luajit-2.1.0-beta2/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/?.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/?/init.lua;, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:43:25 [error] 3638#239270: *7 [lua] bootdevice.lua:36: /usr/local/Cellar/openresty/1.11.2.3/site/lualib/?.so;/usr/local/Cellar/openresty/1.11.2.3/lualib/?.so;./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:43:25 [error] 3638#239270: *7 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/lib/lua/5.1/md5/core.so':
+	dlopen(/usr/local/lib/lua/5.1/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/lib/lua/5.1/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/lib/lua/5.1/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:46:03 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 17:46:03 [notice] 3583#233844: reconfiguring
+2017/07/13 17:46:03 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 17:46:03 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 17:46:03 [notice] 3583#233844: start worker processes
+2017/07/13 17:46:03 [notice] 3583#233844: start worker process 3675
+2017/07/13 17:46:03 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:46:03 [notice] 3638#239270: gracefully shutting down
+2017/07/13 17:46:03 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:46:03 [notice] 3638#239270: exiting
+2017/07/13 17:46:03 [notice] 3638#239270: exit
+2017/07/13 17:46:03 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 17:46:03 [notice] 3583#233844: worker process 3638 exited with code 0
+2017/07/13 17:46:03 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:46:03 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 17:46:04 [error] 3675#240747: *9 [lua] bootdevice.lua:35: /Users/moresmart/openResty/deviceLog//lua/?.lua;/usr/local/Cellar/openresty/1.11.2.3/site/lualib/?.lua;/usr/local/Cellar/openresty/1.11.2.3/site/lualib/?/init.lua;/usr/local/Cellar/openresty/1.11.2.3/lualib/?.lua;/usr/local/Cellar/openresty/1.11.2.3/lualib/?/init.lua;./?.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/luajit-2.1.0-beta2/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/?.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/?/init.lua;, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:46:04 [error] 3675#240747: *9 [lua] bootdevice.lua:36: /usr/local/Cellar/openresty/1.11.2.3/site/lualib/?.so;/usr/local/Cellar/openresty/1.11.2.3/lualib/?.so;./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 17:46:04 [error] 3675#240747: *9 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/lib/lua/5.1/md5/core.so':
+	dlopen(/usr/local/lib/lua/5.1/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/lib/lua/5.1/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/lib/lua/5.1/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 18:50:24 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 18:50:24 [notice] 3583#233844: reconfiguring
+2017/07/13 18:50:24 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 18:50:24 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 18:50:24 [notice] 3583#233844: start worker processes
+2017/07/13 18:50:24 [notice] 3583#233844: start worker process 4132
+2017/07/13 18:50:24 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 18:50:24 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 18:50:24 [notice] 3675#240747: gracefully shutting down
+2017/07/13 18:50:24 [notice] 3675#240747: exiting
+2017/07/13 18:50:24 [notice] 3675#240747: exit
+2017/07/13 18:50:24 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 18:50:24 [notice] 3583#233844: worker process 3675 exited with code 0
+2017/07/13 18:50:24 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 18:50:24 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 18:50:27 [error] 4132#273600: *11 [lua] bootdevice.lua:35: /Users/moresmart/openResty/deviceLog//lua/?.lua;/usr/local/Cellar/openresty/1.11.2.3/site/lualib/?.lua;/usr/local/Cellar/openresty/1.11.2.3/site/lualib/?/init.lua;/usr/local/Cellar/openresty/1.11.2.3/lualib/?.lua;/usr/local/Cellar/openresty/1.11.2.3/lualib/?/init.lua;./?.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/luajit-2.1.0-beta2/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/?.lua;/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1/?/init.lua;, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 18:50:27 [error] 4132#273600: *11 [lua] bootdevice.lua:36: /usr/local/Cellar/openresty/1.11.2.3/site/lualib/?.so;/usr/local/Cellar/openresty/1.11.2.3/lualib/?.so;./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 18:50:27 [error] 4132#273600: *11 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/lib/lua/5.1/md5/core.so':
+	dlopen(/usr/local/lib/lua/5.1/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/lib/lua/5.1/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/lib/lua/5.1/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:04:25 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 19:04:25 [notice] 3583#233844: reconfiguring
+2017/07/13 19:04:25 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 19:04:25 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 19:04:25 [notice] 3583#233844: start worker processes
+2017/07/13 19:04:25 [notice] 3583#233844: start worker process 4210
+2017/07/13 19:04:25 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:04:25 [notice] 4132#273600: gracefully shutting down
+2017/07/13 19:04:25 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:04:25 [notice] 4132#273600: exiting
+2017/07/13 19:04:25 [notice] 4132#273600: exit
+2017/07/13 19:04:25 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:04:25 [notice] 3583#233844: worker process 4132 exited with code 0
+2017/07/13 19:04:25 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:04:25 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:04:28 [error] 4210#280025: *13 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so':
+	dlopen(/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:08:05 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 19:08:05 [notice] 3583#233844: reconfiguring
+2017/07/13 19:08:05 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 19:08:05 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 19:08:05 [notice] 3583#233844: start worker processes
+2017/07/13 19:08:05 [notice] 3583#233844: start worker process 4225
+2017/07/13 19:08:05 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:08:05 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:08:05 [notice] 4210#280025: gracefully shutting down
+2017/07/13 19:08:05 [notice] 4210#280025: exiting
+2017/07/13 19:08:05 [notice] 4210#280025: exit
+2017/07/13 19:08:05 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:08:05 [notice] 3583#233844: worker process 4210 exited with code 0
+2017/07/13 19:08:05 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:08:05 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:08:05 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:08:07 [error] 4225#282060: *15 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so':
+	dlopen(/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:17:00 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 19:17:00 [notice] 3583#233844: reconfiguring
+2017/07/13 19:17:00 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 19:17:00 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 19:17:00 [notice] 3583#233844: start worker processes
+2017/07/13 19:17:00 [notice] 3583#233844: start worker process 4291
+2017/07/13 19:17:01 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:17:01 [notice] 4225#282060: gracefully shutting down
+2017/07/13 19:17:01 [notice] 4225#282060: exiting
+2017/07/13 19:17:01 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:17:01 [notice] 4225#282060: exit
+2017/07/13 19:17:01 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:17:01 [notice] 3583#233844: worker process 4225 exited with code 0
+2017/07/13 19:17:01 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:17:01 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:17:04 [error] 4291#286897: *17 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so':
+	dlopen(/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:20:37 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 19:20:37 [notice] 3583#233844: reconfiguring
+2017/07/13 19:20:37 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 19:20:37 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 19:20:37 [notice] 3583#233844: start worker processes
+2017/07/13 19:20:37 [notice] 3583#233844: start worker process 4360
+2017/07/13 19:20:37 [notice] 4291#286897: gracefully shutting down
+2017/07/13 19:20:37 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:20:37 [notice] 4291#286897: exiting
+2017/07/13 19:20:37 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:20:37 [notice] 4291#286897: exit
+2017/07/13 19:20:37 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:20:37 [notice] 3583#233844: worker process 4291 exited with code 0
+2017/07/13 19:20:37 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:20:37 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:20:39 [error] 4360#288829: *19 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so':
+	dlopen(/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:21:00 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 19:21:00 [notice] 3583#233844: reconfiguring
+2017/07/13 19:21:00 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 19:21:00 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 19:21:00 [notice] 3583#233844: start worker processes
+2017/07/13 19:21:00 [notice] 3583#233844: start worker process 4365
+2017/07/13 19:21:00 [notice] 4360#288829: gracefully shutting down
+2017/07/13 19:21:00 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:21:00 [notice] 4360#288829: exiting
+2017/07/13 19:21:00 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:21:00 [notice] 4360#288829: exit
+2017/07/13 19:21:00 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:21:00 [notice] 3583#233844: worker process 4360 exited with code 0
+2017/07/13 19:21:00 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:21:00 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:21:01 [error] 4365#289014: *21 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so':
+	dlopen(/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:22:00 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 19:22:00 [notice] 3583#233844: reconfiguring
+2017/07/13 19:22:00 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 19:22:00 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 19:22:00 [notice] 3583#233844: start worker processes
+2017/07/13 19:22:00 [notice] 3583#233844: start worker process 4374
+2017/07/13 19:22:00 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:00 [notice] 4365#289014: gracefully shutting down
+2017/07/13 19:22:00 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:00 [notice] 4365#289014: exiting
+2017/07/13 19:22:00 [notice] 4365#289014: exit
+2017/07/13 19:22:00 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:22:00 [notice] 3583#233844: worker process 4365 exited with code 0
+2017/07/13 19:22:00 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:00 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:02 [error] 4374#289572: *23 lua entry thread aborted: runtime error: /Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: module '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core' not found:
+	no field package.preload['/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core']
+	no file '/Users/moresmart/openResty/deviceLog//lua//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core/init.lua'
+	no file './/usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/luajit-2.1.0-beta2//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.lua'
+	no file '/usr/local/share/lua/5.1//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.lua'
+	no file '/usr/local/share/lua/5.1//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/share/lua/5.1//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core/init.lua'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.so'
+	no file './/usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.so'
+	no file '/usr/local/lib/lua/5.1//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1//usr/local/Cellar/openresty/1/11/2/3/lualib/md5/core.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/site/lualib//usr/local/Cellar/openresty/1.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/lualib//usr/local/Cellar/openresty/1.so'
+	no file './/usr/local/Cellar/openresty/1.so'
+	no file '/usr/local/lib/lua/5.1//usr/local/Cellar/openresty/1.so'
+	no file '/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1//usr/local/Cellar/openresty/1.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:22:30 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 19:22:30 [notice] 3583#233844: reconfiguring
+2017/07/13 19:22:30 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 19:22:30 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 19:22:30 [notice] 3583#233844: start worker processes
+2017/07/13 19:22:30 [notice] 3583#233844: start worker process 4379
+2017/07/13 19:22:30 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:30 [notice] 4374#289572: gracefully shutting down
+2017/07/13 19:22:30 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:30 [notice] 4374#289572: exiting
+2017/07/13 19:22:30 [notice] 4374#289572: exit
+2017/07/13 19:22:30 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:22:30 [notice] 3583#233844: worker process 4374 exited with code 0
+2017/07/13 19:22:30 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:30 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:32 [error] 4379#289786: *25 lua entry thread aborted: runtime error: error loading module 'core' from file '/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/core.so':
+	dlopen(/usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/core.so
+  Expected in: flat namespace
+ in /usr/local/Cellar/openresty/1.11.2.3/luajit/lib/lua/5.1/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:22:59 [notice] 3583#233844: signal 1 (SIGHUP) received, reconfiguring
+2017/07/13 19:22:59 [notice] 3583#233844: reconfiguring
+2017/07/13 19:22:59 [notice] 3583#233844: using the "kqueue" event method
+2017/07/13 19:22:59 [warn] 3583#233844: 1024 worker_connections exceed open file resource limit: 256
+2017/07/13 19:22:59 [notice] 3583#233844: start worker processes
+2017/07/13 19:22:59 [notice] 3583#233844: start worker process 4384
+2017/07/13 19:22:59 [notice] 4379#289786: gracefully shutting down
+2017/07/13 19:22:59 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:59 [notice] 4379#289786: exiting
+2017/07/13 19:22:59 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:59 [notice] 4379#289786: exit
+2017/07/13 19:22:59 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:22:59 [notice] 3583#233844: worker process 4379 exited with code 0
+2017/07/13 19:22:59 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:22:59 [notice] 3583#233844: signal 23 (SIGIO) received
+2017/07/13 19:23:01 [error] 4384#289974: *27 lua entry thread aborted: runtime error: error loading module 'md5.core' from file '/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so':
+	dlopen(/usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so, 6): Symbol not found: _luaL_prepbuffsize
+  Referenced from: /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+  Expected in: flat namespace
+ in /usr/local/Cellar/openresty/1.11.2.3/lualib/md5/core.so
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/Users/moresmart/openResty/deviceLog//lua/getparams.lua:23: in function 'createMD5'
+	/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:38: in function </Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:1>, client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/13 19:36:52 [notice] 4384#289974: signal 15 (SIGTERM) received, exiting
+2017/07/13 19:36:52 [notice] 3583#233844: signal 15 (SIGTERM) received, exiting
+2017/07/13 19:36:52 [notice] 3583#233844: signal 14 (SIGALRM) received
+2017/07/13 19:36:52 [notice] 3583#233844: signal 14 (SIGALRM) received
+2017/07/13 19:36:52 [notice] 3583#233844: signal 14 (SIGALRM) received
+2017/07/13 19:36:53 [notice] 3583#233844: signal 14 (SIGALRM) received
+2017/07/13 19:36:54 [notice] 3583#233844: signal 14 (SIGALRM) received
+2017/07/13 19:36:55 [notice] 3583#233844: signal 14 (SIGALRM) received
+2017/07/13 19:36:55 [notice] 3583#233844: signal 20 (SIGCHLD) received
+2017/07/13 19:36:55 [alert] 3583#233844: worker process 4384 exited on signal 9
+2017/07/13 19:36:55 [alert] 3583#233844: unlink() "/usr/local/var/run/openresty.pid" failed (2: No such file or directory)
+2017/07/13 19:36:55 [notice] 3583#233844: exit
+2017/07/14 10:54:55 [notice] 1769#66291: using the "kqueue" event method
+2017/07/14 10:54:55 [warn] 1769#66291: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 10:54:55 [notice] 1769#66291: openresty/1.11.2.3
+2017/07/14 10:54:55 [notice] 1769#66291: built by clang 8.1.0 (clang-802.0.42)
+2017/07/14 10:54:55 [notice] 1769#66291: OS: Darwin 16.6.0
+2017/07/14 10:54:55 [notice] 1769#66291: hw.ncpu: 4
+2017/07/14 10:54:55 [notice] 1769#66291: net.inet.tcp.sendspace: 131072
+2017/07/14 10:54:55 [notice] 1769#66291: kern.ipc.somaxconn: 128
+2017/07/14 10:54:55 [notice] 1769#66291: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/14 10:54:55 [notice] 1770#66292: start worker processes
+2017/07/14 10:54:55 [notice] 1770#66292: start worker process 1771
+2017/07/14 10:55:51 [info] 1771#66293: *1 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/14 16:37:18 [notice] 1770#66292: signal 1 (SIGHUP) received, reconfiguring
+2017/07/14 16:37:18 [notice] 1770#66292: reconfiguring
+2017/07/14 16:37:18 [notice] 1770#66292: using the "kqueue" event method
+2017/07/14 16:37:18 [warn] 1770#66292: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 16:37:18 [notice] 1770#66292: start worker processes
+2017/07/14 16:37:18 [notice] 1770#66292: start worker process 3298
+2017/07/14 16:37:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:37:19 [notice] 1771#66293: gracefully shutting down
+2017/07/14 16:37:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:37:19 [notice] 1771#66293: exiting
+2017/07/14 16:37:19 [notice] 1771#66293: exit
+2017/07/14 16:37:19 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 16:37:19 [notice] 1770#66292: worker process 1771 exited with code 0
+2017/07/14 16:37:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:37:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:37:22 [info] 3298#203356: *3 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/14 16:38:57 [notice] 1770#66292: signal 1 (SIGHUP) received, reconfiguring
+2017/07/14 16:38:57 [notice] 1770#66292: reconfiguring
+2017/07/14 16:38:57 [notice] 1770#66292: using the "kqueue" event method
+2017/07/14 16:38:57 [warn] 1770#66292: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 16:38:57 [notice] 1770#66292: start worker processes
+2017/07/14 16:38:57 [notice] 1770#66292: start worker process 3305
+2017/07/14 16:38:57 [notice] 3298#203356: gracefully shutting down
+2017/07/14 16:38:57 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:38:57 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:38:57 [notice] 3298#203356: exiting
+2017/07/14 16:38:57 [notice] 3298#203356: exit
+2017/07/14 16:38:57 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 16:38:57 [notice] 1770#66292: worker process 3298 exited with code 0
+2017/07/14 16:38:57 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:38:57 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:38:57 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:38:58 [info] 3305#204613: *5 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/14 16:39:24 [notice] 1770#66292: signal 1 (SIGHUP) received, reconfiguring
+2017/07/14 16:39:24 [notice] 1770#66292: reconfiguring
+2017/07/14 16:39:24 [notice] 1770#66292: using the "kqueue" event method
+2017/07/14 16:39:24 [warn] 1770#66292: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 16:39:24 [notice] 1770#66292: start worker processes
+2017/07/14 16:39:24 [notice] 1770#66292: start worker process 3309
+2017/07/14 16:39:24 [notice] 3305#204613: gracefully shutting down
+2017/07/14 16:39:24 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:39:24 [notice] 3305#204613: exiting
+2017/07/14 16:39:24 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:39:24 [notice] 3305#204613: exit
+2017/07/14 16:39:24 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 16:39:24 [notice] 1770#66292: worker process 3305 exited with code 0
+2017/07/14 16:39:24 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:39:24 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:39:25 [info] 3309#204975: *7 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/14 16:41:00 [notice] 1770#66292: signal 1 (SIGHUP) received, reconfiguring
+2017/07/14 16:41:00 [notice] 1770#66292: reconfiguring
+2017/07/14 16:41:00 [notice] 1770#66292: using the "kqueue" event method
+2017/07/14 16:41:00 [warn] 1770#66292: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 16:41:00 [notice] 1770#66292: start worker processes
+2017/07/14 16:41:00 [notice] 1770#66292: start worker process 3313
+2017/07/14 16:41:00 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:00 [notice] 3309#204975: gracefully shutting down
+2017/07/14 16:41:00 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:00 [notice] 3309#204975: exiting
+2017/07/14 16:41:00 [notice] 3309#204975: exit
+2017/07/14 16:41:00 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 16:41:00 [notice] 1770#66292: worker process 3309 exited with code 0
+2017/07/14 16:41:00 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:00 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:01 [error] 3313#206168: *9 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:44: unexpected symbol near '!', client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/14 16:41:19 [notice] 1770#66292: signal 1 (SIGHUP) received, reconfiguring
+2017/07/14 16:41:19 [notice] 1770#66292: reconfiguring
+2017/07/14 16:41:19 [notice] 1770#66292: using the "kqueue" event method
+2017/07/14 16:41:19 [warn] 1770#66292: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 16:41:19 [notice] 1770#66292: start worker processes
+2017/07/14 16:41:19 [notice] 1770#66292: start worker process 3318
+2017/07/14 16:41:19 [notice] 3313#206168: gracefully shutting down
+2017/07/14 16:41:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:19 [notice] 3313#206168: exiting
+2017/07/14 16:41:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:19 [notice] 3313#206168: exit
+2017/07/14 16:41:19 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 16:41:19 [notice] 1770#66292: worker process 3313 exited with code 0
+2017/07/14 16:41:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:19 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:21 [error] 3318#206423: *10 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:44: unexpected symbol near '!', client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/14 16:41:37 [notice] 1770#66292: signal 1 (SIGHUP) received, reconfiguring
+2017/07/14 16:41:37 [notice] 1770#66292: reconfiguring
+2017/07/14 16:41:37 [notice] 1770#66292: using the "kqueue" event method
+2017/07/14 16:41:37 [warn] 1770#66292: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 16:41:37 [notice] 1770#66292: start worker processes
+2017/07/14 16:41:37 [notice] 1770#66292: start worker process 3323
+2017/07/14 16:41:37 [notice] 3318#206423: gracefully shutting down
+2017/07/14 16:41:37 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:37 [notice] 3318#206423: exiting
+2017/07/14 16:41:37 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:37 [notice] 3318#206423: exit
+2017/07/14 16:41:37 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 16:41:37 [notice] 1770#66292: worker process 3318 exited with code 0
+2017/07/14 16:41:37 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:37 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:41:39 [error] 3323#206673: *11 failed to load external Lua file "/Users/moresmart/openResty/deviceLog/lua/bootdevice.lua": /Users/moresmart/openResty/deviceLog/lua/bootdevice.lua:44: 'then' expected near '!', client: 192.168.1.79, server: 192.168.1.97:8080, request: "POST /bootdevice HTTP/1.1", host: "192.168.1.79:8080"
+2017/07/14 16:43:22 [notice] 1770#66292: signal 1 (SIGHUP) received, reconfiguring
+2017/07/14 16:43:22 [notice] 1770#66292: reconfiguring
+2017/07/14 16:43:22 [notice] 1770#66292: using the "kqueue" event method
+2017/07/14 16:43:22 [warn] 1770#66292: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 16:43:22 [notice] 1770#66292: start worker processes
+2017/07/14 16:43:22 [notice] 1770#66292: start worker process 3329
+2017/07/14 16:43:23 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:43:23 [notice] 3323#206673: gracefully shutting down
+2017/07/14 16:43:23 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:43:23 [notice] 3323#206673: exiting
+2017/07/14 16:43:23 [notice] 3323#206673: exit
+2017/07/14 16:43:23 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 16:43:23 [notice] 1770#66292: worker process 3323 exited with code 0
+2017/07/14 16:43:23 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:43:23 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:43:24 [info] 3329#207921: *12 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/14 16:43:45 [notice] 1770#66292: signal 1 (SIGHUP) received, reconfiguring
+2017/07/14 16:43:45 [notice] 1770#66292: reconfiguring
+2017/07/14 16:43:45 [notice] 1770#66292: using the "kqueue" event method
+2017/07/14 16:43:45 [warn] 1770#66292: 1024 worker_connections exceed open file resource limit: 256
+2017/07/14 16:43:45 [notice] 1770#66292: start worker processes
+2017/07/14 16:43:45 [notice] 1770#66292: start worker process 3333
+2017/07/14 16:43:45 [notice] 3329#207921: gracefully shutting down
+2017/07/14 16:43:45 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:43:45 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:43:45 [notice] 3329#207921: exiting
+2017/07/14 16:43:45 [notice] 3329#207921: exit
+2017/07/14 16:43:45 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 16:43:45 [notice] 1770#66292: worker process 3329 exited with code 0
+2017/07/14 16:43:45 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:43:45 [notice] 1770#66292: signal 23 (SIGIO) received
+2017/07/14 16:43:46 [info] 3333#208187: *14 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/14 18:12:24 [notice] 3333#208187: signal 15 (SIGTERM) received, exiting
+2017/07/14 18:12:24 [notice] 1770#66292: signal 15 (SIGTERM) received, exiting
+2017/07/14 18:12:24 [notice] 1770#66292: signal 14 (SIGALRM) received
+2017/07/14 18:12:24 [notice] 1770#66292: signal 14 (SIGALRM) received
+2017/07/14 18:12:24 [notice] 1770#66292: signal 14 (SIGALRM) received
+2017/07/14 18:12:25 [notice] 1770#66292: signal 14 (SIGALRM) received
+2017/07/14 18:12:25 [notice] 1770#66292: signal 14 (SIGALRM) received
+2017/07/14 18:12:27 [notice] 1770#66292: signal 14 (SIGALRM) received
+2017/07/14 18:12:27 [notice] 1770#66292: signal 20 (SIGCHLD) received
+2017/07/14 18:12:27 [alert] 1770#66292: worker process 3333 exited on signal 9
+2017/07/14 18:12:27 [alert] 1770#66292: unlink() "/usr/local/var/run/openresty.pid" failed (2: No such file or directory)
+2017/07/14 18:12:27 [notice] 1770#66292: exit
+2017/07/17 11:08:10 [notice] 2841#86838: using the "kqueue" event method
+2017/07/17 11:08:10 [warn] 2841#86838: 1024 worker_connections exceed open file resource limit: 256
+2017/07/17 11:08:10 [notice] 2841#86838: openresty/1.11.2.3
+2017/07/17 11:08:10 [notice] 2841#86838: built by clang 8.1.0 (clang-802.0.42)
+2017/07/17 11:08:10 [notice] 2841#86838: OS: Darwin 16.6.0
+2017/07/17 11:08:10 [notice] 2841#86838: hw.ncpu: 4
+2017/07/17 11:08:10 [notice] 2841#86838: net.inet.tcp.sendspace: 131072
+2017/07/17 11:08:10 [notice] 2841#86838: kern.ipc.somaxconn: 128
+2017/07/17 11:08:10 [notice] 2841#86838: getrlimit(RLIMIT_NOFILE): 256:9223372036854775807
+2017/07/17 11:08:10 [notice] 2842#86840: start worker processes
+2017/07/17 11:08:10 [notice] 2842#86840: start worker process 2843
+2017/07/17 11:08:51 [info] 2843#86841: *1 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/17 11:09:31 [info] 2843#86841: *3 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/17 11:09:43 [info] 2843#86841: *5 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/17 11:38:58 [info] 2843#86841: *7 kevent() reported that client 192.168.1.79 closed keepalive connection
+2017/07/17 11:39:19 [info] 2843#86841: *9 kevent() reported that client 192.168.1.79 closed keepalive connection

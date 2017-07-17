@@ -28,6 +28,34 @@ local args = params.args
 local mac_add = args["mac_add"]
 local switch_time = os.date("%Y-%m-%d %H:%M", os.time())
 local switch_long_time = os.time()
+local nonce = args["nonce"]
+local rkey = args["rkey"]
+
+if (mac_add == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack mac\"}")
+    return
+end
+
+if (nonce == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack nonce\"}")
+    return
+end
+
+if (rkey == nil) then
+    ngx.say("{\"status\":-4,\"msg\":\"lack rkey\"}")
+    return
+end
+
+local generationMD5 = paramsModel.createMD5(nonce)
+if not generationMD5 then
+    ngx.say("{\"status\":-3,\"msg\":\"encode error\"}") 
+    return
+end
+
+if not (generationMD5 == rkey) then
+    ngx.say("{\"status\":-2,\"msg\":\"rkey error\"}") 
+    return
+end
 
 res, err, errcode, sqlstate = db:query("insert into Night_Light (mac_add, switch_time, switch_long_time) "
                                         .. "values (" .. mac_add ..",\'"
